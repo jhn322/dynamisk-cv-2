@@ -1,6 +1,6 @@
 # Dynamisk CV Sida - Uppgift 2 Webbutveckling
 
-## Sida skapad av:
+### Sida skapad av:
 
 Johan Söderlund
 
