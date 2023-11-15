@@ -1,0 +1,12 @@
+{
+    "workExperience": [
+        {
+            "company": "jobb1",
+            "title": "test1"
+        },
+        {
+            "company": "jobb2",
+            "title": "test2"
+        }
+    ]
+}
