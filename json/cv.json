@@ -10,5 +10,27 @@
             "title": "Lokalvårdare",
             "company": "Umeå Städservice"
         }
+    ],
+    "schoolExperience": [
+        {
+            "year": "Sep 2023 - Juni 2025",
+            "education": "Fullstack JavaScript Extended",
+            "school": "Chas Academy"
+        },
+        {
+            "year": "Dec 2020 - 2021, Dec 2022 - April 2023",
+            "education": "Elektriker och Enstaka kurser",
+            "school": "Astar, Viva Vägledning Vuxenutbildning"
+        },
+        {
+            "year": "Aug 2016 - Juni 2018",
+            "education": "Dator- och Kommunikationsteknik",
+            "school": "Viva Vägledning Vuxenutbildning"
+        },
+        {
+            "year": "Sep 2013 - Dec 2015",
+            "education": "El- och Energiprogrammet och Dator- och Kommunikationsteknik",
+            "school": "Dragonskolan"
+        }
     ]
 }
