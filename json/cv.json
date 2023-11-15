@@ -3,12 +3,14 @@
         {
             "year": "2023",
             "title": "Medarbetare Mjölkavdelningen",
-            "company": "Norrmejerier"
+            "company": "Norrmejerier",
+            "description": "Provtagning av fetthalt, protein, laktos, pH, nitrat på mjölk, fil, yoghurt, grädde m.m. Överseende av samtliga lokaler för underhåll, läckage och städning."
         },
         {
             "year": "2015 - 2023",
             "title": "Lokalvårdare",
-            "company": "Umeå Städservice"
+            "company": "Umeå Städservice",
+            "description": "Golvmoppning, skurmaskin, dammtorkning, städa lokaler, nattjobb. Ansvar över dagligt schema och sekretess för kunder och alarmsystem."
         }
     ],
     "schoolExperience": [
