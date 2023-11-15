@@ -1,12 +1,14 @@
 {
     "workExperience": [
         {
-            "company": "jobb1",
-            "title": "test1"
+            "year": "2023",
+            "title": "Medarbetare Mjölkavdelningen",
+            "company": "Norrmejerier"
         },
         {
-            "company": "jobb2",
-            "title": "test2"
+            "year": "2015 - 2023",
+            "title": "Lokalvårdare",
+            "company": "Umeå Städservice"
         }
     ]
 }
