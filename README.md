@@ -13,10 +13,10 @@ Denna JSON-fil ska läsas och och generera ditt CV
   - Var noga med att kommentera din kod för att tydligt ange vilka delar du har skrivit själv och vilka delar som är baserade på externa källor. Ange också källan för den externa koden.
   - För att hitta lämpliga skript kan du utforska resurser som GitHub, CodePen, eller MDN Web Docs, vilka erbjuder en mängd exempel och kodsnuttar som kan användas som inspiration eller som grund för dina egna projekt."
 
-### **Portfolio**
+<!-- ### **Portfolio**
 
 - Det ska finnas en del av din sida som är en portfolio med projekt du byggt `NY`
-- Du publicerar ett fungerande projekt från Workshop JS Code Jam på ditt Githubkonto och inkluderar det i din portfolio.
+- Du publicerar ett fungerande projekt från Workshop JS Code Jam på ditt Githubkonto och inkluderar det i din portfolio. KLART -->
 
 ### **Tekniska krav**
 
@@ -24,3 +24,5 @@ Denna JSON-fil ska läsas och och generera ditt CV
 - Inga errors i Console
 - Webbplatsen ska vara tekniskt optimerad för sökmotorer, vilket inkluderar korrekt användning av semantiska HTML5-element, metataggar som titel och beskrivning och optimerade bilder för snabba laddningstider.
 - I roten i ditt repository ska det finns en README.md-fil skriven i Markdown. I denna fil ska det minst framgå vem som skapat sidan (ditt namn) och länken till den publicerade versionen (t.ex på Github Pages)
+
+<!-- Remove classes for work and school in cv.css as they are depricated -->
