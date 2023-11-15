@@ -10,9 +10,9 @@ https://jhn322.github.io/dynamisk-cv-2/
 
 ### **CV i en fil**
 
-Dina utbildningar och tidigare arbetsplatser ska inte längre ligga i HTML-koden
-Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format
-Denna JSON-fil ska läsas och och generera ditt CV
+- Dina utbildningar och tidigare arbetsplatser ska inte längre ligga i HTML-koden
+- Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format
+- Denna JSON-fil ska läsas och och generera ditt CV
 
 ### **Interaktiva scripts**
 
@@ -24,13 +24,18 @@ Denna JSON-fil ska läsas och och generera ditt CV
 <!-- ### **Portfolio**
 
 - Det ska finnas en del av din sida som är en portfolio med projekt du byggt `NY`
-- Du publicerar ett fungerande projekt från Workshop JS Code Jam på ditt Githubkonto och inkluderar det i din portfolio. KLART -->
+- Du publicerar ett fungerande projekt från Workshop JS Code Jam på ditt Githubkonto och inkluderar det i din portfolio. -->
 
 ### **Tekniska krav**
 
 - Validerad med 0 fel på [https://validator.w3.org/Links to an external site.](https://validator.w3.org/)
 - Inga errors i Console
 - Webbplatsen ska vara tekniskt optimerad för sökmotorer, vilket inkluderar korrekt användning av semantiska HTML5-element, metataggar som titel och beskrivning och optimerade bilder för snabba laddningstider.
-- I roten i ditt repository ska det finns en README.md-fil skriven i Markdown. I denna fil ska det minst framgå vem som skapat sidan (ditt namn) och länken till den publicerade versionen (t.ex på Github Pages)
+<!-- - I roten i ditt repository ska det finns en README.md-fil skriven i Markdown. I denna fil ska det minst framgå vem som skapat sidan (ditt namn) och länken till den publicerade versionen (t.ex på Github Pages) -->
 
 <!-- Remove classes for work and school in cv.css as they are depricated -->
+<!-- Add more description to readme about this webpage and project -->
+<!-- Add github pages to "gissa numret readme" -->
+<!-- Fix JS not connecting with json -->
+<!-- Add my own interactive JS "element" -->
+<!-- Add external interactive JS "element" and reference it -->
