@@ -1,5 +1,13 @@
 # Dynamisk CV Sida - Uppgift 2 Webbutveckling
 
+## Sida skapad av:
+
+Johan Söderlund
+
+### Länk till webbsidan:
+
+https://jhn322.github.io/dynamisk-cv-2/
+
 ### **CV i en fil**
 
 Dina utbildningar och tidigare arbetsplatser ska inte längre ligga i HTML-koden
