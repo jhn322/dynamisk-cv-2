@@ -29,3 +29,6 @@ document.body.classList.remove('open');
 // Cancels the timeout if the mouse leaves before 500ms
 clearTimeout(timeout);
 });
+
+
+// Denna kod är skriven av mig. 
