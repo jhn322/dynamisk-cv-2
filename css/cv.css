@@ -88,17 +88,25 @@ body {
     background: linear-gradient(to bottom right, #621b31, #b2355c);
 }
 
-/* jobs & education & dates */
-.job-cv, .date-cv {
-    padding: 0.25rem;
-    font-weight: lighter;
+.job-year, .job-company { 
     font-style: italic;
-    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 0.5rem;
 }
 
-/* job & education roles */
-.role-cv {
-    padding: 0.25rem;
-    font-weight: light;
-    font-size: 1.2rem;
+.job-year {
+
+}
+
+.job-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.job-company {
+
+}
+
+.job-description {
+
 }
