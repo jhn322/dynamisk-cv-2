@@ -94,19 +94,27 @@ body {
     margin-bottom: 0.5rem;
 }
 
-.job-year {
-
-}
-
 .job-title {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
 }
 
-.job-company {
+.job-description {
+    font-size: 1rem;
+}
+
+.job1-description {
+    margin-bottom: 2.5rem;
 
 }
 
-.job-description {
+.education-year, .education-school {
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 0.5rem;
+}
 
+.education-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
 }
