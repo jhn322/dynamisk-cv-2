@@ -8,11 +8,11 @@ Johan Söderlund
 
 https://jhn322.github.io/dynamisk-cv-2/
 
-### **CV i en fil**
+<!-- ### **CV i en fil**
 
 - Dina utbildningar och tidigare arbetsplatser ska inte längre ligga i HTML-koden
 - Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format
-- Denna JSON-fil ska läsas och och generera ditt CV
+- Denna JSON-fil ska läsas och och generera ditt CV -->
 
 ### **Interaktiva scripts**
 
@@ -39,3 +39,5 @@ https://jhn322.github.io/dynamisk-cv-2/
 <!-- Fix JS not connecting with json -->
 <!-- Add my own interactive JS "element" -->
 <!-- Add external interactive JS "element" and reference it -->
+<!-- Move everything in CV to the left side and style the text -->
+<!-- Update look on other pages -->
