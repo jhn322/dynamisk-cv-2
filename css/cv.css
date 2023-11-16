@@ -85,7 +85,7 @@ body {
     box-shadow: 3px 3px 8px #00000080;
     color: #F9EBEA;
     background-size: cover;
-    background-image: url("../images/background-1.jpg");
+    background: linear-gradient(to bottom right, #621b31, #b2355c);
 }
 
 /* jobs & education & dates */
