@@ -14,7 +14,7 @@ const job1Description = document.getElementById("job1-description");
 const job2Year = document.getElementById("job2-year");
 const job2Company = document.getElementById("job2-company");
 const job2Title = document.getElementById("job2-title");
-const job2Description = document
+const job2Description = document.getElementById("job2-description");
 
 const education1Year = document.getElementById("education1-year");
 const education1School = document.getElementById("education1-school");
