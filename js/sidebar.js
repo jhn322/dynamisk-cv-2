@@ -1,4 +1,4 @@
-// Functions of the sidebar: 
+// Goals for the sidebar: 
 // 1) Expand menu when hamburger button is pressed
 // 2) Contract when hamburger button is pressed
 // 3) Open with a delay when mouse hover the sidebar
