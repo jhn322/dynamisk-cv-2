@@ -47,7 +47,7 @@ body.open .sidebar {
 }
 
 .sidebar-header:hover {
-    border-left: 3px solid #7a55ff;
+    border-left: 3px solid #ea497c;
 }
 
 /* Burger icon top of the sidebar */
@@ -105,7 +105,7 @@ body.open .sidebar-logo{
 
 .sidebar-menu>button>a:hover {
     color: #bfbfbf;
-    border-left: 3px solid #7a55ff;
+    border-left: 3px solid #ea497c;
 }
 
 /* Adds separator lines in sidebar */
