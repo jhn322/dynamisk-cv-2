@@ -118,3 +118,7 @@ body {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
 }
+
+.education-school1, .education-school2, .education-school3, .education-school4 {
+    margin-bottom: 2.5rem;
+}
