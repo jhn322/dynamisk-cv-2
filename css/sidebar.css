@@ -14,12 +14,14 @@ button {
 }
 
 .sidebar {
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     top: 0;
     left: 0;
+    bottom: 0;
     width: 75px;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
     background: #621b31;
     transition: all 0.4s;
 }
