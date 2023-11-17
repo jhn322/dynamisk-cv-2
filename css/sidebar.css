@@ -68,15 +68,13 @@ body.open .sidebar {
     place-items: center;
 }
 
-.sidebar-burger>i,
-body.open .sidebar-burger>i {
+.sidebar-burger>i, body.open .sidebar-burger>i {
     font-size: 25px;
     color: #f9f9f9;
     transition: all 0.4s;
 }
 
-.sidebar-burger:hover>i,
-body.open .sidebar-burger:hover>i {
+.sidebar-burger:hover>i, body.open .sidebar-burger:hover>i {
     color: #bfbfbf;
 }
 
@@ -132,8 +130,7 @@ body.open .sidebar-logo{
     transition: all 0.4s;
 }
 
-.sidebar-menu>button:hover>i,
-.sidebar-menu>button:hover>span {
+.sidebar-menu>button:hover>i, .sidebar-menu>button:hover>span {
     color: #bfbfbf;
 }
 

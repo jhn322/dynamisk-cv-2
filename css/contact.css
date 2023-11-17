@@ -28,8 +28,6 @@ body {
     max-width: 800px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 3px 3px 8px #00000080;
-    background-color: #e3d6d6;
 }
 
 /* styling for headline */
@@ -49,7 +47,7 @@ body {
 
 /* line separator for the information */
 .underline {
-    height: 0.2rem;
+    height: 0.1rem;
     width: 90%;
     margin-top: -1.5rem;
     margin-bottom: 1rem;
@@ -77,3 +75,36 @@ body {
 
 .form-group {
     margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #131212;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.submit-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #621b31;
+    color: #fff;
+    border: none;
+    transition: background-color 0.8s ease;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1.6rem;
+}
+
+.submit-button:hover {
+    background-color: #b2355c;
+}
