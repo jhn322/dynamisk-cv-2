@@ -14,3 +14,4 @@ https://jhn322.github.io/dynamisk-webb-2/
 <!-- Portfolio: Style the images left, right, left, right and smaller images  -->
 <!-- Dark mode? -->
 <!-- Main: dont shrink just change with @media -->
+<!-- Gissa numret: Reset knapp, stänga av gissa knapp -->
