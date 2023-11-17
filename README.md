@@ -13,3 +13,4 @@ https://jhn322.github.io/dynamisk-webb-2/
 <!-- Update look on other pages -->
 <!-- Portfolio: Style the images left, right, left, right and smaller images  -->
 <!-- Dark mode? -->
+<!-- Main: dont shrink just change with @media -->
