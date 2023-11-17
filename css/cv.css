@@ -81,8 +81,6 @@ body {
     margin: 1rem 0rem;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px #00000080;
     color: #F9EBEA;
     background-size: cover;
     background: linear-gradient(to bottom right, #621b31, #b2355c);
