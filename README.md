@@ -11,4 +11,5 @@ https://jhn322.github.io/dynamisk-webb-2/
 <!-- Remove classes for work and school in cv.css as they are depricated -->
 <!-- Add more description to readme about this webpage and project -->
 <!-- Update look on other pages -->
-<!-- Fix errors -->
+<!-- Portfolio: Style the images left, right, left, right and smaller images  -->
+<!-- Dark mode? -->
