@@ -65,3 +65,15 @@ body {
     object-fit: cover;
     background-size: cover;
 }
+
+/* Styling for the contact form */
+.contact-form {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 100%;
+    max-width: 750px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
