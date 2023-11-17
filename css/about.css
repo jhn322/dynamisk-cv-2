@@ -24,7 +24,6 @@ h1 {
     max-width: 600px;
     margin: auto;
     border-radius: 10px;
-
 }
 
 /* styling for headline */
@@ -48,7 +47,7 @@ p {
 }
 
 
-/* external css below */
+/* External css below */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
