@@ -46,13 +46,16 @@ p {
     padding-bottom: 4rem;
 }
 
+
 /* -------------------------------External css from codepen below------------------------------- */
 
+/* Added by me */
 .slideshow-container {
     margin-bottom: 5rem;
     padding-left: 4.7rem;
 }
 
+/* Edited class name */
 .slideshow {
     max-width: 1000px;
     position: relative;
@@ -93,6 +96,8 @@ p {
     bottom: 8px;
     width: 100%;
     text-align: center;
+    /* Added by me */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 6);
 }
 
 .numbertext {
@@ -101,6 +106,8 @@ p {
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    /* Added by me */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 6);
 }
 
 .dot {
