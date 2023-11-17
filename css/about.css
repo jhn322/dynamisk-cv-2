@@ -21,7 +21,7 @@ h1 {
     height: auto;
     width: 55%;
     min-width: 300px;
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
     border-radius: 10px;
 }
@@ -50,6 +50,7 @@ p {
 
 .slideshow-container {
     margin-bottom: 5rem;
+    padding-left: 4.7rem;
 }
 
 .slideshow {
