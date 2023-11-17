@@ -46,9 +46,13 @@ p {
     padding-bottom: 4rem;
 }
 
+/* -------------------------------External css from codepen below------------------------------- */
 
-/* External css below */
 .slideshow-container {
+    margin-bottom: 4rem;
+}
+
+.slideshow {
     max-width: 1000px;
     position: relative;
     margin: auto;
