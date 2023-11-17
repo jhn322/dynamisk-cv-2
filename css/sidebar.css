@@ -29,6 +29,11 @@ button {
     transition: all 0.4s;
 }
 
+.sidebar a.active {
+    color: #131212;
+    background-color: #ea497c;
+}
+
 body.open .sidebar {
     width: 250px;
 }
