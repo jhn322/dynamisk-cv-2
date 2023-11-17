@@ -26,5 +26,5 @@ function showSlides(n) {
   dots[slideIndex-1].classList.add("active");
 }
 
-// Detta är ett externt script INTE skrivet av mig
+// Detta är ett externt script inte skrivet av mig.
 // Källa: https://codepen.io/berikiushi/pen/grygxb
