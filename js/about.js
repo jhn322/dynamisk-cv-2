@@ -1,3 +1,4 @@
+// External JavaScript from CodePen below 
 /* Slideshow JavaScript */
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -26,5 +27,5 @@ function showSlides(n) {
   dots[slideIndex-1].classList.add("active");
 }
 
-// Detta är ett externt script inte skrivet av mig.
+// Detta är ett externt script, inget är skrivet av mig.
 // Källa: https://codepen.io/berikiushi/pen/grygxb
