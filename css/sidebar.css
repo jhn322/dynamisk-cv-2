@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
 }
 
-button {
+div {
     background: transparent;
     border: 0;
     padding: 0;
@@ -94,7 +94,7 @@ body.open .sidebar-logo{
 }
 
 /* Styling for the sidebar menu */
-.sidebar-menu>button>a {
+.sidebar-menu>div>a {
     display: flex;
     gap: 12px;
     align-items: center;
@@ -111,36 +111,36 @@ body.open .sidebar-logo{
     color: #f9f9f9;
 }
 
-.sidebar-menu>button>a:hover {
+.sidebar-menu>div>a:hover {
     color: #bfbfbf;
     border-left: 3px solid #ea497c;
 }
 
 /* Adds separator lines in sidebar */
-.sidebar-menu>button.has-border {
+.sidebar-menu>div.has-border {
     padding-bottom: 1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
     margin-bottom: 1rem;
 }
 
 /* Styling for icons */
-.sidebar-menu>button>a>i {
+.sidebar-menu>div>a>i {
     font-size: 25px;
     color: #f9f9f9;
     transition: all 0.4s;
 }
 
-.sidebar-menu>button:hover>i, .sidebar-menu>button:hover>span {
+.sidebar-menu>div:hover>i, .sidebar-menu>button:hover>span {
     color: #bfbfbf;
 }
 
 /* Styling for sidebar text */
-.sidebar-menu>button>a>span {
+.sidebar-menu>div>a>span {
     opacity: 0;
     transition: all 0.4s;
 }
 
-body.open .sidebar-menu>button>a>span {
+body.open .sidebar-menu>div>a>span {
     opacity: 1;
     transition: all 0.4s;
 }
