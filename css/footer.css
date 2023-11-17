@@ -1,5 +1,6 @@
 /* footer */
 .footer {
+    flex: 0 0 auto;
     height: 15rem;
     padding: 1.5rem;
     margin-top: auto;
