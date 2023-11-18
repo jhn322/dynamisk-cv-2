@@ -17,12 +17,10 @@ a {
 
 /* main headline */
 h1 {
-    padding-bottom: 1.5rem;
-    text-align: center;
-    font-weight: bolder;
+    padding-bottom: 1rem;
     font-family: 'Georama', Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 2.5rem;
-    color: #F9EBEA;
 }
 
 /* property for smaller headlines */
@@ -36,7 +34,6 @@ h2 {
 /* headline for projects  */
 h3 {
     font-size: 1.5rem;
-
     font-weight: lighter;
 }
 
@@ -59,14 +56,30 @@ section {
     height: 35rem;
     width: 100vw;
     background-color: black;
+    color: white;
+}
+
+.start-1-name, .start-1-title {
+    color: white;
 }
 
 .start-1-text {
-    margin-top: 40px;
+    margin-top: 3rem;
     text-align: center;
-    color: white;
     display: flex;
     flex-direction: column;
+}
+
+.start-1-link-button {
+    color: #b2355c;
+}
+
+.start-1-link-button:hover {
+    color: #621b31;
+}
+
+.start-2-cv, .start-2-title {
+    color: black;
 }
 
 .start-2 {
@@ -79,11 +92,19 @@ section {
 }
 
 .start-2-text {
-    margin-top: 40px;
+    margin-top: 3rem;
     text-align: center;
     color: black;
     display: flex;
     flex-direction: column;
+}
+
+.start-2-link-button {
+    color: #b2355c;
+}
+
+.start-2-link-button:hover {
+    color: #621b31;
 }
 
 .project-headline {
