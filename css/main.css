@@ -57,24 +57,6 @@ section {
     margin-right: auto;
 }
 
-.welcome-header {
-    width: 60%;
-    transform: translate(33%, 0%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem 0rem -1.8rem 0rem;
-    text-decoration: none;
-}
-
-.welcome-header h1 {
-    padding: 1rem;
-    display: inline-block;
-    margin: 0;
-    font-weight: light;
-    color: #131212;
-}
-
 .start-container {
     display: flex;
     justify-content: space-between;

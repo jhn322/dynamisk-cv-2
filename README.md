@@ -15,3 +15,4 @@ https://jhn322.github.io/dynamisk-webb-2/
 <!-- Dark mode? -->
 <!-- Main: dont shrink just change with @media -->
 <!-- Gissa numret: Reset knapp, stänga av gissa knapp -->
+<!-- Planet bakgrunder, längre bort per sida? -->
