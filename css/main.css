@@ -35,6 +35,7 @@ h2 {
 h3 {
     font-size: 1.5rem;
     font-weight: lighter;
+    padding-bottom: 1rem;
 }
 
 /* Keeps the start boxes in place */
@@ -72,6 +73,7 @@ section {
 
 .start-1-link-button {
     color: #b2355c;
+    font-size: 1.3rem;
 }
 
 .start-1-link-button:hover {
@@ -101,6 +103,7 @@ section {
 
 .start-2-link-button {
     color: #b2355c;
+    font-size: 1.3rem;
 }
 
 .start-2-link-button:hover {
