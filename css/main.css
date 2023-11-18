@@ -23,18 +23,15 @@ h1 {
 /* property for smaller headlines */
 h2, h3 {
     padding-bottom: 1rem;
-    text-align: center;
     font-family: 'Georama', Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 2.5rem;
-    color: #F9EBEA;
 }
 
 /* headline for projects  */
 h3 {
     font-size: 1.5rem;
     font-weight: lighter;
-    color: #131212;
 }
 
 /* text under start images */
@@ -57,75 +54,48 @@ section {
     margin-right: auto;
 }
 
-.start-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-/* styles used for both start cards */
-.start {
-    height: 750px;
-    width: 100%;
-    min-width: 391px;
-    max-width: 800px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-size: cover;
-}
-
 .start-1 {
-    margin: 50px 25px 50px 350px;
-    background-size: auto;
-    background: linear-gradient(to bottom right, #621b31, #b2355c);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 35rem;
+    width: 100vw;
+    background-color: black;
+}
+
+.start-1-name, .start-1-title {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    align-self: center;
+}
+
+.start-1-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .start-2 {
-    margin: 50px 350px 50px 25px;
-    background-size: auto;
-    background: linear-gradient(to bottom right, #621b31, #b2355c);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 35rem;
+    width: 100vw;
+    background-color: white;
 }
 
-/* image for start */
-.start-image {
-    height: 60%;
-    width: 100%;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
-    background-color: #131212;
-}
-
-.about-headline {
+.start-2-cv, .start-2-title {
+    color: black;
+    display: flex;
     text-decoration: none;
+    align-self: center;
 }
 
-/* lights up "Om mig" to go to contact page */
-.about-headline h2:hover {
-    transition: color 0.4s;
-    color: #b2355c;
-}
-
-.cv-headline {
-    text-decoration: none;
-}
-
-/* lights up "mitt cv" to go to about page */
-.cv-headline h2:hover {
-    transition: color 0.4s;
-    color: #b2355c;
-}
-
-/* adds a link to google maps in a new tab upon clicking */
-.town-text-link a {
-    text-decoration: none;
-}
-
-.town-text-link a:hover {
-    text-decoration: underline;
-    color: #F9EBEA;
+.start-2-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-headline {
