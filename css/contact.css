@@ -11,17 +11,20 @@ body {
     background-color: #ededed; 
 }
 
-/* styling for headline */
-.contact-me h1 {
+.headline {
+    font-size: 4rem;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 600;
+    color: #0f0f0f;
+}
+
+/* styling for headline */
+.contact-me h1 {
     padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 4vw;
-    color: #0f0f0f;
 }
 
 /* main box */
@@ -172,4 +175,19 @@ input[type="text"], textarea {
 
 .submit-button:hover {
     background-color: #2597ab;
+}
+
+/* Mobile mode */
+@media (max-width: 699px) {
+    .headline {
+        font-size: 1.7rem;
+    }
+}
+
+/* Tablet mode */
+@media (min-width: 700px) and (max-width: 1200px) {
+    .headline {
+        font-size: 2.5rem;
+    }
+
 }
