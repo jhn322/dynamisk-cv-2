@@ -105,27 +105,27 @@ section {
 }
 
 .project-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/start-1-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/project-1-bg.jpg');
     background-size: cover;
     color: white;
 }
 
 .project-2 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../images/start-2-bg.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../images/project-2-bg.jpg');
     background-size: cover;
     color: black;
 }
 
 .project-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/start-1-bg.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../images/project-3-bg.jpg');
     background-size: cover;
-    color: white;
+    color: black;
 }
 
 .project-4 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../images/start-2-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/project-4-bg.jpg');
     background-size: cover;
-    color: black;
+    color: white;
 }
 
 .project {
