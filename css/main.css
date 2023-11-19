@@ -209,48 +209,30 @@ section {
 
 /* Tablet mode */
 @media (min-width: 700px) and (max-width: 1200px) {
-/* removes the h1 */
-    .welcome-header {
-        display: none;
-    }
-    
-    .start-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-/* scales dynamically */
     .start {
-        height: 92%;
-        width: 92%;
-        margin: 50px auto;
-    }
-
-    .start-1 {
-        margin: 50px 25px;
-        margin-top: 20px;
-    }
-
-    .start-2 {
-        margin: 50px 25px;
-        margin-top: -28px;
-    }
-
-/* Aligns the element according to .start-2 width */
-    .project-headline {
-        width: 65%;
-        transform: translate(27%, 0%);
-    }
-
-/* 2 cards on a row fix */
-    .project-card-container {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        width: 100vw;
     }
     
-    .project-card {
-        width: 40%;
-        margin: 2%;
+    .start-1 {
+        height: 30rem;
+    }
+    
+    .start-2 {
+        height: 21.42rem;
+    }
+    
+    .start-text {
+        margin-bottom: 1rem;
+    }
+    
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 43rem;
+    }
+    
+    .project-text {
+         margin-bottom: 1rem;
     }
 }
