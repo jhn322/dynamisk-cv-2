@@ -107,29 +107,21 @@
         <!-- Container for start -->
         <div class="start-container">
             <!-- Main card 1 -->
-            <article class="start start-1">
-                <a href="html/about.html" class="start-1-link">
-                    <div class="start-1-text">
-                        <h1 class="start-1-name">Johan Söderlund</h1>
-                        <h3 class="start-1-title">Fullstack JavaScript Utvecklare.</h3>
-                        <div>
-                            <a href="html/about.html" class="start-1-link-button">Läs mer</a>
-                        </div>
-                    </div>
-                </a>
+            <article class="start start-1" onclick="redirectToAbout()">
+                <div class="start-1-text">
+                    <h1 class="start-1-name">Johan Söderlund</h1>
+                    <h3 class="start-1-title">Fullstack JavaScript Utvecklare.</h3>
+                    <div class="start-1-link-button">Läs mer</div>
+                </div>
             </article>
 
             <!-- Main card 2 -->
-            <article class="start start-2">
-                <a href="html/cv.html" class="start-2-link">
-                    <div class="start-2-text">
-                        <h2 class="start-2-cv">CV</h2>
-                        <h3 class="start-2-title">Jobb. Utbildningar.</h3>
-                        <div class="start-2-inner-link">
-                            <a href="html/cv.html" class="start-2-link-button">Läs mer</a>
-                        </div>
-                    </div>
-                </a>
+            <article class="start start-2" onclick="redirectToCv()">
+                <div class="start-2-text">
+                    <h2 class="start-2-name">CV</h2>
+                    <h3 class="start-2-title">Jobb. Utbildningar.</h3>
+                    <div class="start-2-link-button">Läs mer</div>
+                </div>
             </article>
         </div>
     </header>
@@ -193,6 +185,7 @@
         </div>
     </footer>
     <script src="js/sidebar.js"></script>
+    <script src="js/redirect.js"></script>
 </body>
 
 </html>

@@ -2,6 +2,6 @@ function redirectToAbout() {
     window.location.href = "html/about.html";
 }
 
-function redirectToCV() {
+function redirectToCv() {
     window.location.href = "html/cv.html";
 }
