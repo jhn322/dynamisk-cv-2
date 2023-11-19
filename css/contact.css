@@ -72,8 +72,16 @@ body {
     border-radius: 8px;
 }
 
+.contact-headline {
+    margin-bottom: 1rem;
+}
+
 .form-group {
     margin-bottom: 1rem;
+}
+
+.form-label {
+    font-weight: lighter;
 }
 
 label {
