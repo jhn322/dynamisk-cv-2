@@ -72,12 +72,12 @@ section {
     flex-direction: column;
 }
 
-.start-1-link-button {
+.start-link-button {
     color: #b2355c;
     font-size: 1.3rem;
 }
 
-.start-1-link-button:hover {
+.start-link-button:hover {
     color: #621b31;
 }
 
@@ -104,86 +104,46 @@ section {
     flex-direction: column;
 }
 
-.start-2-link-button {
-    color: #b2355c;
-    font-size: 1.3rem;
-}
-
-.start-2-link-button:hover {
-    color: #621b31;
-}
-
-.start-1 {
+.project-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     height: 35rem;
     width: 100vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/start-1-bg.jpg');
-    background-size: cover;
-    color: white;
+    /* margin-top: 4rem; */
+}
+
+.project {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .project-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 35rem;
-    width: 100vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/start-1-bg.jpg');
     background-size: cover;
     color: white;
 }
 
-.project-1-name, .project-1-title {
-    color: white;
-}
-
-.project-1-text {
-    margin-top: 3rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.project-1-link-button {
-    color: #b2355c;
-    font-size: 1.3rem;
-}
-
-.project-1-link-button:hover {
-    color: #621b31;
-}
-
-.project-2-cv, .start-2-title {
-    color: black;
-}
-
 .project-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 35rem;
-    width: 100vw;
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../images/start-2-bg.jpg');
     background-size: cover;
     background-color: white;
+    color: black;
 }
 
-.project-2-text {
+.project .project-text {
     margin-top: 3rem;
     text-align: center;
-    color: black;
-    display: flex;
-    flex-direction: column;
 }
 
-.project-2-link-button {
+.project-link-button {
     color: #b2355c;
     font-size: 1.3rem;
 }
 
-.project-2-link-button:hover {
+.project-link-button:hover {
     color: #621b31;
 }
 
