@@ -11,17 +11,6 @@ body {
     background-color: #ededed; 
 }
 
-.list-container {
-    padding: 2rem;
-    list-style: none;
-    transition: filter 0.5s ease, transform 0.5s;
-    transform-origin: center center;
-}
-
-.list-container:hover {
-    transform: scale(1.03);
-}
-
 /* styling for headline */
 .contact-me h1 {
     font-family: 'Chakra Petch', sans-serif;
@@ -48,7 +37,12 @@ body {
     text-align: center;
 }
 
-/* specific behavior for list and text */
+.list-container {
+    padding: 2rem;
+    list-style: none;
+    transform-origin: center center;
+}
+
 .list {
     display: flex;
     align-items: center;
@@ -56,12 +50,66 @@ body {
     font-size: 1.1rem;
     color: #0f0f0f;
     overflow: hidden;
+    transition: transform 1s ease;
 }
 
 .list li {
     font-size: 1.3rem;
     font-weight: 500;
     font-family: 'Chakra Petch', sans-serif;
+}
+
+.list-1, .list-2, .list-3, .list-4 {
+    transform: translateX(0);
+    transition: transform 1s ease;
+}
+
+.list-1:hover {
+    animation: moveLeftAndBack 1.5s ease forwards;
+}
+
+.list-2:hover {
+    animation: moveRightAndBack 1.5s ease forwards;
+}
+
+.list-3:hover {
+    animation: moveLeftAndBack 1.5s ease forwards;
+}
+
+.list-4:hover {
+    animation: moveRightAndBack 1.5s ease forwards;
+}
+
+.list-1:hover, .list-2:hover, .list-3:hover, .list-4:hover {
+    transition: transform 0s;
+}
+
+@keyframes moveLeftAndBack {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-200px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveRightAndBack {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(200px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 /* Styling for the contact form */
