@@ -5,3 +5,19 @@ function redirectToAbout() {
 function redirectToCv() {
     window.location.href = "html/cv.html";
 }
+
+function redirectToGithub1() {
+    window.location.href = "https://github.com/jhn322/pmm-config.git";
+}
+
+function redirectToGithub2() {
+    window.location.href = "https://github.com/jhn322/gissa-numret.git";
+}
+
+function redirectToGithub3() {
+    window.location.href = "https://github.com/jhn322/Chas-Academy-Lektioner/tree/main/230915%20-%20Boiler%20Room";
+}
+
+function redirectToGithub4() {
+    window.location.href = "https://github.com/jhn322/Chas-Academy-Lektioner/tree/main/230921%20-%20Traffic%20Light";
+}
