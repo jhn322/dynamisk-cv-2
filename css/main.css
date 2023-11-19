@@ -50,6 +50,22 @@ section {
     margin-right: auto;
 }
 
+.start-text {
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.start-link-button {
+    color: #b2355c;
+    font-size: 1.3rem;
+}
+
+.start-link-button:hover {
+    color: #621b31;
+}
+
 .start-1 {
     display: flex;
     flex-direction: row;
@@ -80,19 +96,59 @@ section {
     color: black;
 }
 
-.start-text {
-    margin-top: 3rem;
-    text-align: center;
+.project-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 35rem;
+    width: 100vw;
+    /* margin-top: 4rem; */
 }
 
-.start-link-button {
+.project {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    transition: filter 0.5s ease;
+}
+
+.project::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.4s ease-in-out;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.project:hover::before {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.project .project-text {
+    margin-top: 3rem;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.project-link-button {
     color: #b2355c;
     font-size: 1.3rem;
 }
 
-.start-link-button:hover {
+.project-link-button:hover {
     color: #621b31;
 }
 
@@ -103,60 +159,17 @@ section {
 
 .project-2 {
     background-image: url('../images/project-2-bg.jpg');
-    color: black;
+    color: white;
 }
 
 .project-3 {
     background-image: url('../images/project-3-bg.jpg');
-    background-size: cover;
-    color: black;
+    color: white;
 }
 
 .project-4 {
     background-image: url('../images/project-4-bg.jpg');
     color: white;
-}
-
-.project-1:hover, .project-4:hover {
-    filter: brightness(40%);
-}
-
-.project-2:hover, .project-3:hover {
-    filter: brightness(150%);
-}
-
-.project-container {
-    display: flex;
-    flex-direction: row;
-    height: 35rem;
-    width: 100vw;
-    /* margin-top: 4rem; */
-}
-
-.project {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-size: cover;
-    transition: filter 0.5s ease;
-    filter: brightness(70%);
-    z-index: 0;
-}
-
-.project .project-text {
-    margin-top: 3rem;
-    text-align: center;
-}
-
-.project-link-button {
-    color: #b2355c;
-    font-size: 1.3rem;
-}
-
-.project-link-button:hover {
-    color: #621b31;
 }
 
 /* Mobile mode */
