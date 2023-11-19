@@ -16,6 +16,9 @@ body {
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 600;
     padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-size: 4vw;
     color: #0f0f0f;
@@ -159,7 +162,7 @@ input[type="text"], textarea {
     font-size: 1rem;
     background-color: #36e1ff;
     font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: #ffffff;
     border: none;
     transition: background-color 0.2s ease;
     border-radius: 4px;
