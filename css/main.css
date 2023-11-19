@@ -91,6 +91,8 @@ section {
     justify-content: center;
     height: 35rem;
     width: 100vw;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../images/start-2-bg.jpg');
+    background-size: cover;
     background-color: white;
 }
 
