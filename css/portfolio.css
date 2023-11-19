@@ -8,7 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #F9EBEA;
+    background-color: #ededed;
 }
 
 /* projekt headlines */
@@ -24,7 +24,7 @@ h3 {
     text-align: center;
     font-family: 'Georama', Arial, Helvetica, sans-serif;
     font-size: 3rem;
-    color: #131212;
+    color: #0f0f0f;
 }
 
 /* style of <a tag */
@@ -32,14 +32,14 @@ h3 {
     text-align: center;
     text-decoration: none;
     font-size: 1.6rem;
-    color: #131212;
+    color: #0f0f0f;
 }
 
 /* hover effect on <a tag */
 .headline:hover {
     transition: color 0.4s;
     text-decoration: none;
-    color: #b2355c;
+    color: #2597ab;
 }
 
 /* main box */
@@ -57,7 +57,7 @@ h3 {
     padding: 0.4rem 3rem 5rem 3rem;
     text-align: center;
     font-size: 1.1rem;
-    color: #131212;
+    color: #0f0f0f;
 }
 
 /* image specifics */

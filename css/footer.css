@@ -11,7 +11,7 @@
 
 .footer-title {
     font-weight: bold;
-    color: #F9EBEA;
+    color: #ededed;
 }
 
 .footer-content {
@@ -20,7 +20,7 @@
 
 .footer-content a {
     text-decoration: none;
-    color: #F9EBEA;
+    color: #ededed;
 }
 
 .footer-content a:hover {
