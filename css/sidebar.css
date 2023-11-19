@@ -26,12 +26,12 @@ div {
     display: flex;
     z-index: 3;
     flex-direction: column;
-    background: #131212;
+    background: #0f0f0f;
     transition: all 0.4s;
 }
 
 .sidebar a.active {
-    color: #131212;
+    color: #0f0f0f;
     background-color: #2597ab;
 }
 
@@ -71,12 +71,12 @@ body.open .sidebar {
 
 .sidebar-burger>i, body.open .sidebar-burger>i {
     font-size: 25px;
-    color: #f9f9f9;
+    color: #ededed;
     transition: all 0.4s;
 }
 
 .sidebar-burger:hover>i, body.open .sidebar-burger:hover>i {
-    color: #bfbfbf;
+    color: #aeaeae;
 }
 
 /* .sidebar-logo{
@@ -109,11 +109,11 @@ body.open .sidebar-logo{
     border-left: 3px solid transparent;
     transition: all 0.4s;
     text-decoration: none;
-    color: #f9f9f9;
+    color: #ededed;
 }
 
 .sidebar-menu>div>a:hover {
-    color: #bfbfbf;
+    color: #aeaeae;
     border-left: 3px solid #2597ab;
 }
 
@@ -127,12 +127,12 @@ body.open .sidebar-logo{
 /* Styling for icons */
 .sidebar-menu>div>a>i {
     font-size: 25px;
-    color: #f9f9f9;
+    color: #ededed;
     transition: all 0.4s;
 }
 
 .sidebar-menu>div:hover>i, .sidebar-menu>button:hover>span {
-    color: #bfbfbf;
+    color: #aeaeae;
 }
 
 /* Styling for sidebar text */
