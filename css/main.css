@@ -184,7 +184,6 @@ section {
 /* Mobile mode */
 @media (max-width: 699px) {
     .start {
-        height: 100%;
         width: 100vw;
     }
     .start-1 {
@@ -201,7 +200,7 @@ section {
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 17.85rem;
+        height: 38rem;
     }
     .project-text {
         margin-bottom: 1rem;
