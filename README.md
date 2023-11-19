@@ -16,3 +16,8 @@ https://jhn322.github.io/dynamisk-webb-2/
 <!-- Main: dont shrink just change with @media -->
 <!-- Gissa numret: Reset knapp, stänga av gissa knapp -->
 <!-- Planet bakgrunder, längre bort per sida? -->
+
+<!-- project länkar till rätt sida -->
+<!-- ta bort cursor pointer på cv sida -->
+<!-- project cards on main page become darker/lighter on hover, decrease not on hover -->
+<!-- project cards "zoom out" on hover -->
