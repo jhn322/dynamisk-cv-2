@@ -98,44 +98,31 @@ section {
 
 .project-1 {
     background-image: url('../images/project-1-bg.jpg');
-    background-size: cover;
-    transition: filter 0.5s ease;
     color: white;
-    z-index: 0;
 }
 
 .project-2 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../images/project-2-bg.jpg');
-    background-size: cover;
+    background-image: url('../images/project-2-bg.jpg');
     color: black;
 }
 
 .project-3 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../images/project-3-bg.jpg');
+    background-image: url('../images/project-3-bg.jpg');
     background-size: cover;
     color: black;
 }
 
 .project-4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/project-4-bg.jpg');
-    background-size: cover;
+    background-image: url('../images/project-4-bg.jpg');
     color: white;
 }
 
-.project-1:hover {
-    filter: brightness(50%);
+.project-1:hover, .project-4:hover {
+    filter: brightness(40%);
 }
 
-.project-2:hover {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/project-2-bg.jpg');
-}
-
-.project-3:hover {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/project-3-bg.jpg');
-}
-
-.project-4:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/project-4-bg.jpg');
+.project-2:hover, .project-3:hover {
+    filter: brightness(150%);
 }
 
 .project-container {
@@ -152,6 +139,10 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-size: cover;
+    transition: filter 0.5s ease;
+    filter: brightness(70%);
+    z-index: 0;
 }
 
 .project .project-text {
