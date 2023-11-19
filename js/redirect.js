@@ -15,7 +15,7 @@ function redirectToGithub2() {
 }
 
 function redirectToGithub3() {
-    window.location.href = "https://github.com/jhn322/Chas-Academy-Lektioner/tree/main/230915%20-%20Boiler%20Room";
+    window.location.href = "https://github.com/jhn322/responsive-sidebar-1.git";
 }
 
 function redirectToGithub4() {
