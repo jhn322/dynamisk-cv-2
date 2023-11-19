@@ -65,7 +65,22 @@ section {
     color: white;
 }
 
-.start-1-text {
+.start-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 35rem;
+    width: 100vw;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../images/start-2-bg.jpg');
+    background-size: cover;
+    background-color: white;
+}
+
+.start-2-cv, .start-2-title {
+    color: black;
+}
+
+.start-text {
     margin-top: 3rem;
     text-align: center;
     display: flex;
@@ -79,29 +94,6 @@ section {
 
 .start-link-button:hover {
     color: #621b31;
-}
-
-.start-2-cv, .start-2-title {
-    color: black;
-}
-
-.start-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 35rem;
-    width: 100vw;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../images/start-2-bg.jpg');
-    background-size: cover;
-    background-color: white;
-}
-
-.start-2-text {
-    margin-top: 3rem;
-    text-align: center;
-    color: black;
-    display: flex;
-    flex-direction: column;
 }
 
 .project-container {
