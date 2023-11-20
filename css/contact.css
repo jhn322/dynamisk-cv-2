@@ -1,7 +1,8 @@
 /* font used universally on the website */
 * {
     margin: 0px;
-    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
 }
 
 /* background */
@@ -172,7 +173,8 @@ input[type="text"], textarea {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     background-color: #36e1ff;
-    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
     color: #ffffff;
     border: none;
     transition: background-color 0.2s ease;

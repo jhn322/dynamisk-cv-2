@@ -27,7 +27,6 @@ https://jhn322.github.io/dynamisk-webb-2/
 
 <!-- Portfolio: Style the images left, right, left, right and smaller images  -->
 <!-- Gissa numret: Reset knapp, stänga av gissa knapp -->
-<!-- Remove cursor pointer for cv and other pages -->
 <!-- Change font for text (not headlines)? -->
 <!-- Semantics html SEO -->
 <!-- Check errors -->

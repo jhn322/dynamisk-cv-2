@@ -1,7 +1,7 @@
 /* font used universally on the website */
 * {
     margin: 0px;
-    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 /* background */
@@ -31,7 +31,8 @@ h1 {
 .about-container,
 p {
     text-align: center;
-    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
     padding: 1rem;
     font-size: 2.3rem;
     color: #0f0f0f;
