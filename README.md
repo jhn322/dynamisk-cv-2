@@ -8,7 +8,6 @@ Johan Söderlund
 
 https://jhn322.github.io/dynamisk-webb-2/
 
-<!-- Remove classes for work and school in cv.css as they are depricated -->
 <!-- Add more description to readme about this webpage and project -->
 <!-- Portfolio: Style the images left, right, left, right and smaller images  -->
 <!-- Gissa numret: Reset knapp, stänga av gissa knapp -->
