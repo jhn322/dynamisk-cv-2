@@ -105,7 +105,7 @@ section {
     height: 6rem;
     width: 100vw;
     cursor: pointer;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/project-headline-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/portfolio-headline-bg.jpg');
     background-color: #0f0f0f;;
     background-size: cover;
     color: #ededed;
