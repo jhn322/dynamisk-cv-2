@@ -220,9 +220,11 @@ section {
     .start {
         width: 100vw;
     }
+
     .start-1 {
         height: 25rem;
     }
+
     .start-2 {
         height: 17.85rem;
     }
@@ -230,12 +232,27 @@ section {
     .start-text {
         margin-bottom: 1rem;
     }
+
+    .project-headline {
+        height: 4rem;
+    }
+
+    .project-headline-text {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .project-headline-link-button {
+        margin: 1rem 0 0 1.5rem;
+    }
+
     .project-container {
         display: flex;
         flex-direction: column;
         width: 100vw;
         height: 38rem;
     }
+
     .project-text {
         margin-bottom: 1rem;
     }
