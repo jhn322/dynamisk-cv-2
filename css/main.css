@@ -105,8 +105,8 @@ section {
     height: 6rem;
     width: 100vw;
     cursor: pointer;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/portfolio-headline-bg.jpg');
-    background-color: #0f0f0f;;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/portfolio-headline-bg.jpg');
+    background-color: #0f0f0f;
     background-size: cover;
     color: #ededed;
 }
@@ -235,8 +235,7 @@ section {
     }
 
     .portfolio-headline {
-        background-image: none;
-        background-color: #000000;
+        background-color: #070707;
     }
 
     .portfolio-headline {
@@ -280,11 +279,6 @@ section {
     
     .start-text {
         margin-bottom: 1rem;
-    }
-    
-    .portfolio-headline {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/portfolio-headline-bg.jpg');
-    background-position: 1rem 1rem;
     }
 
     .project-container {
