@@ -19,7 +19,7 @@ li {
     margin-top: 0rem;
 }
 
-.headline {
+.headline-h1 {
     font-size: 4rem;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 600;
@@ -187,14 +187,14 @@ input[type="text"], textarea {
 
 /* Mobile mode */
 @media (max-width: 699px) {
-    .headline {
+    .headline-h1 {
         font-size: 1.7rem;
     }
 }
 
 /* Tablet mode */
 @media (min-width: 700px) and (max-width: 1200px) {
-    .headline {
+    .headline-h1 {
         font-size: 2.5rem;
     }
 

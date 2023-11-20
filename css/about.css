@@ -20,6 +20,7 @@ h1 {
 .about-container {
     height: auto;
     width: 55%;
+    pointer-events: none;
     min-width: 300px;
     max-width: 900px;
     margin: auto;
