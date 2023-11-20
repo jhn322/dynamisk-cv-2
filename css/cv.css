@@ -120,3 +120,34 @@ h4, p {
 .education-school1, .education-school2, .education-school3, .education-school4 {
     margin-bottom: 2.5rem;
 }
+
+/* Mobile mode */
+@media (max-width: 699px) {
+    .header-cv {
+        height: 200px;
+    }
+    .first-name, .last-name {
+        font-size: 0;
+        line-height: 0;
+    }
+    .cv-header {
+        font-size: 2rem;
+        margin-top: -1rem;
+    }
+}
+
+/* Tablet mode */
+@media (min-width: 700px) and (max-width: 1200px) {
+    .header-cv {
+        height: 200px;
+    }
+    
+    .first-name, .last-name {
+        font-size: 1.5rem;
+    }
+    
+    .cv-header {
+        font-size: 1.3rem;
+        margin-top: -2rem;
+    }
+}
