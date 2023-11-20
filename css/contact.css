@@ -27,7 +27,7 @@ li {
 }
 
 /* styling for headline */
-.contact-me h1 {
+.contact-info h1 {
     padding: 2rem;
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@ li {
 }
 
 /* main box */
-.contact-me {
+.contact-info {
     height: auto;
     width: 46%;
     min-width: 300px;
@@ -46,7 +46,7 @@ li {
 }
 
 /* styling for headline */
-.contact-me p {
+.contact-info p {
     padding: 2rem;
     text-align: center;
 }
@@ -128,7 +128,7 @@ li {
 
 /* Styling for the contact form */
 .contact-form {
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 1rem;
     width: 100%;
     max-width: 750px;
