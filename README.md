@@ -26,8 +26,6 @@ Detta är uppgift 2 i kursen Webbutveckling och Webbteknik. Denna bygger vidare 
 https://jhn322.github.io/dynamisk-webb-2/
 
 <!-- Portfolio: Style the images left, right, left, right and smaller images  -->
-<!-- Gissa numret: Reset knapp, stänga av gissa knapp -->
-<!-- Change font for text (not headlines)? -->
 <!-- Semantics html SEO -->
 <!-- Check errors -->
 <!-- Check REQUIRMENTS! -->
