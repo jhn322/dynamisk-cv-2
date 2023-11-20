@@ -235,6 +235,11 @@ section {
     }
 
     .portfolio-headline {
+        background-image: none;
+        background-color: #000000;
+    }
+
+    .portfolio-headline {
         height: 4rem;
     }
 
@@ -277,6 +282,11 @@ section {
         margin-bottom: 1rem;
     }
     
+    .portfolio-headline {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/portfolio-headline-bg.jpg');
+    background-position: 1rem 1rem;
+    }
+
     .project-container {
         display: flex;
         flex-direction: column;
