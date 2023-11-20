@@ -97,6 +97,34 @@ section {
     color: #0f0f0f;
 }
 
+
+.project-headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 6rem;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/project-headline-bg.jpg');
+    background-size: cover;
+    color: #ededed;
+}
+
+.project-headline-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-headline-link-button {
+    color: #36e1ff;
+    font-size: 1.3rem;
+    transition: 0.2s ease;
+}
+
+.project-headline-link-button:hover {
+    color: #2597ab;
+}
+
 .project-container {
     display: flex;
     flex-direction: row;
