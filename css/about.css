@@ -140,3 +140,29 @@ h1 {
 .dot:hover {
     background-color: #717171;
 }
+
+/* Mobile mode */
+@media (max-width: 699px) {
+    .about-headline {
+        font-size: 1.8rem;
+    }
+    .about-text p {
+        font-size: 1rem;
+    }
+    .slideshow-headline {
+        font-size: 1.3rem;
+    }
+}
+
+/* Tablet mode */
+@media (min-width: 700px) and (max-width: 1200px) {
+    .about-headline {
+        font-size: 2.5rem;
+    }
+    .about-text p {
+        font-size: 1.2rem;
+    }
+    .slideshow-headline {
+        font-size: 1.6rem;
+    }
+}
