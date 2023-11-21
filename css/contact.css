@@ -190,6 +190,9 @@ input[type="text"], textarea {
     .info-headline {
         font-size: 1.7rem;
     }
+    .contact-form {
+        max-width: 350px;
+    }
 }
 
 /* Tablet mode */
@@ -197,5 +200,7 @@ input[type="text"], textarea {
     .info-headline {
         font-size: 2.5rem;
     }
-
+    .contact-form {
+        max-width: 580px;
+    }
 }
