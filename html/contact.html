@@ -109,51 +109,47 @@
     <section>
         <div class="contact-info">
             <h1 class="headline-h1">KONTAKTINFORMATION</h1>
-            <!-- Article with relevant lists -->
-            <article>
-                <div class="contact-container">
-                    <ul class="list-container">
-                        <div class="list list-1">
-                            <li>Email:</li>
-                            <p>johan.soderlund@chasacademy.se</p>
-                        </div>
-                        <div class="list list-2">
-                            <li>Adress:</li>
-                            <p>Västerbotten, Umeå, Holmsund.</p>
-                        </div>
-                        <div class="list list-3">
-                            <li>Skola:</li>
-                            <p>Fullstack JavaScript Extended @ Chas Academy.</p>
-                        </div>
-                        <div class="list list-4">
-                            <li>Discord:</li>
-                            <p>"FJSX23" och "Fullstack Fam".</p>
-                        </div>
-                    </ul>
-
-                    <!-- Contact Form -->
-                    <form class="contact-form">
-                        <h2 class="contact-headline">Contact Me</h2>
-                        <div action="#" method="POST">
-                            <div class="form-group">
-                                <label class="form-label" for="name">Name</label>
-                                <input type="text" id="name" name="name" required>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label" for="lastname">Last Name</label>
-                                <input type="text" id="lastname" name="lastname" required>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label" for="message">Message</label>
-                                <textarea id="message" name="message" rows="5" required></textarea>
-                            </div>
-                            <button class="submit-button">Submit</button>
-                        </div>
-                    </form>
-
-                </div>
-            </article>
+            <div class="contact-container">
+                <ul class="list-container">
+                    <li class="list list-1">
+                        <span>Email:</span>
+                        <p>johan.soderlund@chasacademy.se</p>
+                    </li>
+                    <li class="list list-2">
+                        <span>Adress:</span>
+                        <p>Västerbotten, Umeå, Holmsund.</p>
+                    </li>
+                    <li class="list list-3">
+                        <span>Skola:</span>
+                        <p>Fullstack JavaScript Extended @ Chas Academy.</p>
+                    </li>
+                    <li class="list list-4">
+                        <span>Discord:</span>
+                        <p>"FJSX23" och "Fullstack Fam".</p>
+                    </li>
+                </ul>
+            </div>
         </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" action="#" method="POST">
+            <h2 class="contact-headline">Contact Me</h2>
+            <div>
+                <div class="form-group">
+                    <label class="form-label" for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
     </section>
 
     <!-- Footer -->
