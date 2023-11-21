@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/sidebar.css">
     <!-- Link to Sidebar Icons -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <!-- Fonts from Google Font -->
+    <!-- Fonts from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Georama:wght@500;600;700&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
 
 <body>
 
-    <!-- Sidebar -->
+    <!-- Sidebar navigation-->
     <nav class="sidebar">
         <div class="sidebar-inner">
             <header class="sidebar-header">
@@ -33,6 +33,7 @@
                     <i class="bx bx-menu"></i>
                 </div>
             </header>
+            <!-- Sidebar content with icons & links -->
             <aside class="sidebar-menu">
                 <div>
                     <a href="../index.html" class="home">
@@ -103,10 +104,11 @@
         </div>
     </nav>
 
-    <!-- headline -->
+    <!-- About section -->
     <article class="about-container">
+        <!-- Headline -->
         <h1 class="headline">OM MIG</h1>
-        <!-- Article with classes for paragraphs -->
+        <!-- Article with about paragraphs -->
         <div>
             <div class="about-text">
                 <p class="about-text-1">Hej jag heter Johan Söderlund, jag är 27 år gammal. Jag bor i en
@@ -139,10 +141,12 @@
     </article>
 
     <!-- External HTML from CodePen below -->
-    <!-- Added by me: 4 more classes & dots, images. -->
+    <!-- Added by me: 4 more classes & dots, images etc. -->
     <article class="slideshow-container">
         <!-- Header added by me -->
         <h2 class="slideshow-headline">HOLMSUND</h2>
+
+        <!-- Slideshow with images -->
         <div class="slideshow">
             <div class="mySlides">
                 <div class="numbertext">1 / 8</div>
@@ -193,11 +197,13 @@
                 <div class="text">Holmsund sågverk</div>
             </div>
 
+            <!-- Buttons for next and previous  -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <br>
 
+        <!-- Dots for slide navigation -->
         <div style="text-align: center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
@@ -228,6 +234,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript scripts -->
     <script src="../js/sidebar.js"></script>
     <script src="../js/about.js"></script>
 </body>

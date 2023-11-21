@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/sidebar.css">
     <!-- Link to Sidebar Icons -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <!-- Fonts from Google Font -->
+    <!-- Fonts from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Georama:wght@500;600;700&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
 
 <body>
 
-    <!-- Sidebar -->
+    <!-- Sidebar navigation-->
     <nav class="sidebar">
         <div class="sidebar-inner">
             <header class="sidebar-header">
@@ -33,6 +33,7 @@
                     <i class="bx bx-menu"></i>
                 </div>
             </header>
+            <!-- Sidebar content with icons & links -->
             <aside class="sidebar-menu">
                 <div>
                     <a href="../index.html" class="home">
@@ -112,16 +113,17 @@
         </div>
     </header>
 
-    <!-- Article -->
+    <!-- Main section -->
     <section>
         <div class="body-cv">
-            <!-- Jobs -->
+            <!-- Headline -->
             <header>
                 <h3 class="job-headline">ARBETSERFARENHET</h3>
             </header>
 
             <!-- Work experience generated from JSON  -->
             <div id="work-experience">
+                <!-- Individual job experiences -->
                 <div class="job">
                     <h4 class="job-year" id="job1-year">year</h4>
                     <h4 class="job-title" id="job1-title">title</h4>
@@ -136,12 +138,14 @@
                 </div>
             </div>
 
+            <!-- Headline -->
             <header>
                 <h3 class="education-headline">UTBILDNING</h3>
             </header>
 
             <!-- Educations generated from JSON  -->
             <div id="school-experience">
+                <!-- Individual education experiences -->
                 <div class="education">
                     <h4 class="education-year" id="education1-year">year</h4>
                     <h4 class="education-title" id="education1-title">title</h4>
@@ -183,6 +187,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript scripts -->
     <script src="../js/sidebar.js"></script>
     <script src="../js/cv.js"></script>
 </body>

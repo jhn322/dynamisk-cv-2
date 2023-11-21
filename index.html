@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/sidebar.css">
     <!-- Link to Sidebar Icons -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <!-- Font from Google Font -->
+    <!-- Fonts from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Georama:wght@500;600;700&display=swap" rel="stylesheet">
@@ -26,7 +26,7 @@
 
 <body>
 
-    <!-- Sidebar -->
+    <!-- Sidebar navigation-->
     <nav class="sidebar">
         <div class="sidebar-inner">
             <header class="sidebar-header">
@@ -34,6 +34,7 @@
                     <i class="bx bx-menu"></i>
                 </div>
             </header>
+            <!-- Sidebar content with icons & links -->
             <aside class="sidebar-menu">
                 <div>
                     <a href="index.html" class="home active">
@@ -104,11 +105,11 @@
         </div>
     </nav>
 
-    <!-- Header -->
+    <!-- Header section -->
     <header>
-        <!-- Container for start -->
+        <!-- Container for start elements -->
         <div class="start-container">
-            <!-- Main card 1 -->
+            <!-- First element with use of JS -->
             <article class="start start-1" onclick="redirectToAbout()">
                 <div class="start-text">
                     <h1 class="start-1-name">JOHAN SÖDERLUND</h1>
@@ -117,7 +118,7 @@
                 </div>
             </article>
 
-            <!-- Main card 2 -->
+            <!-- Second element with use of JS -->
             <article class="start start-2" onclick="redirectToCv()">
                 <div class="start-text">
                     <h2 class="start-2-name">CV</h2>
@@ -128,19 +129,21 @@
         </div>
     </header>
 
+    <!-- Portfolio element with use of JS -->
     <article class="portfolio-headline" onclick="redirectToPortfolio()">
         <div class="portfolio-headline-text">
+            <!-- Headline -->
             <h2 class="portfolio-headline-name">PORTFOLIO</h2>
             <div class="portfolio-headline-link-button">Learn more &gt;</div>
         </div>
     </article>
 
     <section>
-        <!-- Hidden section header for HTML best practice-->
+        <!-- Hidden section header due to HTML best practice-->
         <h2 class="hidden-header">My projects</h2>
-        <!-- Container for projects -->
+        <!-- First container for projects -->
         <div class="project-container">
-            <!-- Project card 1 -->
+            <!-- Projects with use of JS to redirect-->
             <article class="project project-1" onclick="redirectToGithub1()">
                 <div class="project-text">
                     <h2 class="project-name">Plex Meta Manager</h2>
@@ -149,7 +152,6 @@
                 </div>
             </article>
 
-            <!-- Project card 2 -->
             <article class="project project-2" onclick="redirectToGithub2()">
                 <div class="project-text">
                     <h2 class="project-name">Guess the Number</h2>
@@ -159,9 +161,8 @@
             </article>
         </div>
 
-        <!-- Container for projects -->
+        <!-- Second container for projects -->
         <div class="project-container">
-            <!-- Project card 3 -->
             <article class="project project-3" onclick="redirectToGithub3()">
                 <div class="project-text">
                     <h2 class="project-name">Responsive Sidebar</h2>
@@ -170,7 +171,6 @@
                 </div>
             </article>
 
-            <!-- Project card 4 -->
             <article class="project project-4" onclick="redirectToGithub4()">
                 <div class="project-text">
                     <h2 class="project-name">Traffic Light</h2>
@@ -197,6 +197,8 @@
             <a href="mailto:johan.soderlund@chasacademy.se" target="_blank">Mail</a>
         </div>
     </footer>
+
+    <!-- JavaScript scripts -->
     <script src="js/sidebar.js"></script>
     <script src="js/redirect.js"></script>
 </body>

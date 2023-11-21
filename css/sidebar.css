@@ -1,9 +1,11 @@
+/* Universal setttings */
 * {
     box-sizing: border-box;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 500;
 }
 
+/* Body positioning */
 body {
     margin: 0;
     display: flex;
@@ -11,6 +13,7 @@ body {
     min-height: 100vh;
 }
 
+/* Default settings for all div elements */
 div {
     background: transparent;
     border: 0;
@@ -18,6 +21,7 @@ div {
     cursor: pointer;
 }
 
+/* Sidebar container */
 .sidebar {
     position: fixed;
     overflow: hidden;
@@ -32,15 +36,18 @@ div {
     transition: all 0.4s;
 }
 
+/* Current page indicator */
 .sidebar a.active {
     color: #0f0f0f;
     background-color: #2597ab;
 }
 
+/* Width of sidebar when in open mode */
 body.open .sidebar {
     width: 250px;
 }
 
+/* Inner part of the sidebar */
 .sidebar-inner {
     position: absolute;
     top: 0;
@@ -48,7 +55,7 @@ body.open .sidebar {
     width: 300px;
 }
 
-/* Top of the sidebar */
+/* Styling for the top of the sidebar */
 .sidebar-header {
     display: flex;
     align-items: center;
@@ -59,11 +66,12 @@ body.open .sidebar {
     transition: all 0.4s;
 }
 
+/* Hover for top of the sidebar */
 .sidebar-header:hover {
     border-left: 3px solid #2597ab;
 }
 
-/* Burger icon top of the sidebar */
+/* Burger icon at the top of the sidebar */
 .sidebar-burger {
     width: 70px;
     height: 70px;
@@ -71,32 +79,25 @@ body.open .sidebar {
     place-items: center;
 }
 
+/* Styling for burger icon and its transition */
 .sidebar-burger>i, body.open .sidebar-burger>i {
     font-size: 25px;
     color: #ededed;
     transition: all 0.4s;
 }
 
+
+/* Hover effect on burger icon */
 .sidebar-burger:hover>i, body.open .sidebar-burger:hover>i {
     color: #aeaeae;
 }
 
-/* .sidebar-logo{
-    height: 30px;
-    opacity: 0;
-    transition: all 0.4s;
-}
-
-body.open .sidebar-logo{
-    opacity: 1;
-    transition: all 0.4s;
-} */
-
+/* Grid for sidebar menu */
 .sidebar-menu {
     display: grid;
 }
 
-/* Styling for the sidebar menu */
+/* Styling for the sidebar menu items */
 .sidebar-menu>div>a {
     display: flex;
     gap: 12px;
@@ -114,12 +115,13 @@ body.open .sidebar-logo{
     color: #ededed;
 }
 
+/* Hover effect for menu items */
 .sidebar-menu>div>a:hover {
     color: #aeaeae;
     border-left: 3px solid #2597ab;
 }
 
-/* Adds separator lines in sidebar */
+/* Adds divider lines in sidebar */
 .sidebar-menu>div.has-border {
     padding-bottom: 1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
@@ -133,6 +135,7 @@ body.open .sidebar-logo{
     transition: all 0.4s;
 }
 
+/* Hover for remaining icons in sidebar */
 .sidebar-menu>div:hover>i, .sidebar-menu>button:hover>span {
     color: #aeaeae;
 }
@@ -143,6 +146,7 @@ body.open .sidebar-logo{
     transition: all 0.4s;
 }
 
+/* Text properties when sidebar is open */
 body.open .sidebar-menu>div>a>span {
     opacity: 1;
     transition: all 0.4s;
