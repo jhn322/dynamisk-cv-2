@@ -5,14 +5,14 @@
     font-weight: 400;
 }
 
-/* background */
+/* Background settings */
 body {
     display: flex;
     flex-direction: column;
     background-color: #ededed;
 }
 
-/* grey box */
+/* Styling for header container */
 .header-cv {
     height: 300px;
     width: 100%;
@@ -26,12 +26,13 @@ body {
     background-color: #0f0f0f;
 }
 
-/* headline with name and year */
+/* Styling for h1 headline in header */
 .header-cv h1 {
     padding-top: 6rem;
     font-weight: 400;
 }
 
+/* Styling for h2 headline in header */
 .last-name, h2 {
     margin-top: -2.5rem;
     font-size: 2.4rem;
@@ -39,12 +40,13 @@ body {
     font-weight: 400;
 }
 
+/* Specific styling for h3 in header */
 .cv-header {
     font-weight: lighter;
     font-size: 1.8rem;
 }
 
-/* article with content */
+/* Styling for container for work and school experiences */
 .body-cv {
     height: auto;
     width: 46%;
@@ -58,7 +60,7 @@ body {
     background-size: cover;
 }
 
-/* headline in second box */
+/* Styling for h3 in work and school */
 .body-cv h3 {
     padding: 3rem;
     text-align: center;
@@ -66,6 +68,7 @@ body {
     font-size: 1.8rem;
 }
 
+/* Styling for p text in work and school */
 .body-cv p {
     padding-top: 0.6rem;
     font-size: 1rem;
@@ -73,7 +76,7 @@ body {
     font-weight: 200;
 }
 
-/* headlines with box element */
+/* Styling for headlines  */
 .job-headline, .education-headline {
     height: 1px;
     display: flex;
@@ -88,6 +91,7 @@ body {
     background: linear-gradient(to bottom right, #2597ab, #36e1ff);
 }
 
+/* Combined styling for year and company */
 .job-year, .job-company {
     font-style: italic;
     font-family: 'Manrope', sans-serif;
@@ -95,6 +99,7 @@ body {
     margin-bottom: 0.5rem;
 }
 
+/* Styling for job titles */
 .job-title {
     font-size: 1.3rem;
     font-family: 'Manrope', sans-serif;
@@ -106,11 +111,13 @@ body {
     font-size: 1rem;
 }
 
+/* Added margin between jobs */
 .job1-description {
     margin-bottom: 2.5rem;
 
 }
 
+/* Combined styling for year and school */
 .education-year, .education-school {
     font-style: italic;
     font-family: 'Manrope', sans-serif;
@@ -125,12 +132,14 @@ body {
     margin-bottom: 0.5rem;
 }
 
+/* Added margin between schools */
 .education-school {
     margin-bottom: 2.5rem;
 }
 
 /* Mobile mode */
 @media (max-width: 699px) {
+    /* Removed name & last in header */
     .header-cv {
         height: 200px;
     }
@@ -146,6 +155,7 @@ body {
 
 /* Tablet mode */
 @media (min-width: 700px) and (max-width: 1200px) {
+    /* Decreased font size in header */
     .header-cv {
         height: 200px;
     }

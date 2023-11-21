@@ -5,13 +5,14 @@
     font-weight: 400;
 }
 
-/* background */
+/* Background settings */
 body {
     display: flex;
     flex-direction: column;
     background-color: #ededed; 
 }
 
+/* Margins for contact text */
 p {
     margin-top: -2rem;
 }
@@ -20,6 +21,7 @@ li {
     margin-top: 0rem;
 }
 
+/* Headline styling */
 .headline-info {
     font-size: 4rem;
     font-family: 'Chakra Petch', sans-serif;
@@ -27,8 +29,8 @@ li {
     color: #0f0f0f;
 }
 
-/* styling for headline */
-.contact-info h1 {
+/* Styling for h1 in contact container */
+.contact-container h1 {
     padding: 2rem;
     display: flex;
     align-items: center;
@@ -36,8 +38,8 @@ li {
     text-align: center;
 }
 
-/* main box */
-.contact-info {
+/* Styling for contact container with list items */
+.contact-container {
     height: auto;
     width: 46%;
     min-width: 300px;
@@ -46,8 +48,8 @@ li {
     border-radius: 10px;
 }
 
-/* styling for headline */
-.contact-info p {
+/* Styling for text in container */
+.contact-container p {
     padding: 2rem;
     text-align: center;
 }
@@ -58,6 +60,7 @@ li {
     transform-origin: center center;
 }
 
+/* More styling for the list with contact info */
 .list {
     display: flex;
     align-items: center;
@@ -74,11 +77,13 @@ li {
     font-family: 'Chakra Petch', sans-serif;
 }
 
+/* Animation effects for list items */
 .list-1, .list-2, .list-3, .list-4 {
     transform: translateX(0);
     transition: transform 1s ease;
 }
 
+/* Move right, left on hover with a delay */
 .list-1:hover {
     animation: moveLeftAndBack 1.5s ease forwards;
 }
@@ -99,6 +104,7 @@ li {
     transition: transform 0s;
 }
 
+/* Specified pixel length list items will move for left and right */
 @keyframes moveLeftAndBack {
     0% {
         transform: translateX(0);
@@ -136,7 +142,8 @@ li {
     border-radius: 8px;
 }
 
-.contact-headline {
+/* Margins for each element in the form */
+.headline-form {
     margin-bottom: 1rem;
 }
 
@@ -154,6 +161,7 @@ label {
     font-weight: bold;
 }
 
+/* Styling for input areas in form */
 input[type="text"], textarea {
     width: 100%;
     padding: 0.5rem;
@@ -163,12 +171,14 @@ input[type="text"], textarea {
     resize: none;
 }
 
+/* Change the defualt border color when selecting the form areas */
 .contact-form input[type="text"]:focus, .contact-form textarea:focus {
     border-color: #36e1ff;
     border-width: 2px;
     outline: none;
 }
 
+/* Styling for submit button */
 .submit-button {
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -189,14 +199,14 @@ input[type="text"], textarea {
 
 /* Mobile mode */
 @media (max-width: 699px) {
-    .headline-h1 {
+    .headline-info {
         font-size: 1.7rem;
     }
 }
 
 /* Tablet mode */
 @media (min-width: 700px) and (max-width: 1200px) {
-    .headline-h1 {
+    .headline-info {
         font-size: 2.5rem;
     }
 

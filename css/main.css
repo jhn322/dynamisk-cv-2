@@ -4,18 +4,14 @@
     font-family: 'Manrope', sans-serif;
 }
 
-/* background */
+/* Background settings */
 body {
     display: flex;
     flex-direction: column;
     background-color: #ededed;
 }
 
-a {
-    text-decoration: none;
-}
-
-/* main headline */
+/* Styling h1 headline */
 h1 {
     padding-bottom: 1rem;
     font-family: 'Chakra Petch', sans-serif;
@@ -23,7 +19,7 @@ h1 {
     font-size: 2.5rem;
 }
 
-/* property for smaller headlines */
+/* Property for smaller headlines */
 h2 {
     padding-bottom: 1rem;
     font-family: 'Chakra Petch', sans-serif;
@@ -31,25 +27,26 @@ h2 {
     font-size: 2.5rem;
 }
 
-/* headline for projects  */
+/* Styling for "keyword" text under headlines for each element  */
 h3 {
     font-size: 1.5rem;
     font-weight: lighter;
     padding-bottom: 1rem;
 }
 
-/* Keeps the start boxes in place */
+/* Keeps the start elements in place */
 header {
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Keeps the card boxes in place */
+/* Keeps the card elements in place */
 section {
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Flex for text in start containers */
 .start-text {
     margin-top: 3rem;
     text-align: center;
@@ -57,6 +54,7 @@ section {
     flex-direction: column;
 }
 
+/* Styling for link text */
 .start-link-button {
     color: #36e1ff;
     font-size: 1.3rem;
@@ -67,6 +65,7 @@ section {
     color: #2597ab;
 }
 
+/* Specific styling and flex for first element */
 .start-1 {
     display: flex;
     flex-direction: row;
@@ -82,6 +81,7 @@ section {
     color: #ededed;
 }
 
+/* Specific styling and flex for second element */
 .start-2 {
     display: flex;
     flex-direction: row;
@@ -97,7 +97,7 @@ section {
     color: #0f0f0f;
 }
 
-
+/* Styling and flex for Portfolio headline/container */
 .portfolio-headline {
     display: flex;
     flex-direction: row;
@@ -111,6 +111,7 @@ section {
     color: #ededed;
 }
 
+/* Flex text in portfolio header */
 .portfolio-headline-text {
     text-align: center;
     display: flex;
@@ -121,6 +122,7 @@ section {
     margin-top: 0.3rem;
 }
 
+/* Styling for link button */
 .portfolio-headline-link-button {
     color: #36e1ff;
     font-size: 1.3rem;
@@ -141,14 +143,15 @@ section {
     overflow: hidden;
 }
 
+/* Properties for project container */
 .project-container {
     display: flex;
     flex-direction: row;
     height: 35rem;
     width: 100vw;
-    /* margin-top: 4rem; */
 }
 
+/* Flex, background and properties for each project  */
 .project {
     position: relative;
     flex: 1;
@@ -165,6 +168,7 @@ section {
     transform-origin: center center;
 }
 
+/* Pseudo-element for projects with background darkening of image */
 .project::before {
     content: "";
     position: absolute;
@@ -178,16 +182,19 @@ section {
     pointer-events: none;
 }
 
+/* Darken on hover */
 .project:hover::before {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
 
+/* Zoom on hover */
 .project:hover {
     transform: scale(1.03);
     z-index: 2;
 }
 
+/* Text alignement for text */
 .project .project-text {
     margin-top: 3rem;
     text-align: center;
@@ -195,6 +202,7 @@ section {
     z-index: 2;
 }
 
+/* Styling for link button */
 .project-link-button {
     color: #36e1ff;
     font-size: 1.3rem;
@@ -205,6 +213,7 @@ section {
     color: #2597ab;
 }
 
+/* Images for projects */
 .project-1 {
     background-image: url('../images/project-1-bg.jpg');
     color: #ededed;
@@ -231,6 +240,7 @@ section {
         width: 100vw;
     }
 
+    /* Changes to smaller size for mobile */
     .start-1 {
         height: 25rem;
     }
@@ -251,6 +261,7 @@ section {
         height: 4rem;
     }
 
+    /* Shifts the link button to the right of portfolio headline  */
     .portfolio-headline-text {
         display: flex;
         flex-direction: row;
@@ -260,6 +271,7 @@ section {
         margin: 1rem 0 0 1.5rem;
     }
 
+    /* Changes to smaller size for mobile */
     .project-container {
         display: flex;
         flex-direction: column;
@@ -278,6 +290,7 @@ section {
         width: 100vw;
     }
     
+    /* Changes to smaller size for tablet */
     .start-1 {
         height: 30rem;
     }
@@ -290,6 +303,7 @@ section {
         margin-bottom: 1rem;
     }
 
+    /* Changed to 1 project per row in column in tablet mode */
     .project-container {
         display: flex;
         flex-direction: column;

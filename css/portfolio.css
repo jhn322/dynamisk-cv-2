@@ -40,7 +40,7 @@ p {
     font-family: 'Manrope', sans-serif;
 }
 
-/* Properties for header */
+/* Properties for header with image */
 .headline-1 {
     display: flex;
     flex-direction: row;
@@ -53,6 +53,7 @@ p {
     color: #ededed;
 }
 
+/* Properties for header text */
 .headline-text {
     margin-top: 3rem;
     text-align: center;
@@ -61,6 +62,7 @@ p {
     flex-direction: column;
 }
 
+/* Container for all projects */
 .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -69,6 +71,7 @@ p {
     margin: 3rem auto;
 }
 
+/* Styling for project elements */
 .project {
     width: 30rem;
     margin: 1.5rem 1.5rem;
@@ -77,6 +80,7 @@ p {
     transition: transform 0.3s ease-in-out;
 }
 
+/* Alternate colors for project cards */
 .project-1, .project-3 {
     background-color: #0f0f0f;
 }
@@ -85,6 +89,7 @@ p {
     background-color: #ededed;
 }
 
+/* Alternate paragraph colors for project cards */
 .project-1 p, .project-3 p {
     color: #ededed;
 }
@@ -93,28 +98,33 @@ p {
     color: #0f0f0f;
 }
 
+/* Slight movement when hover */
 .project:hover {
     transform: translateY(-5px);
 }
 
+/* Styling for text inside anchor tag */
 .link {
     display: block;
     text-decoration: none;
     color: inherit;
 }
 
+/* Images styling */
 .image {
     width: 100%;
     height: 20rem;
     object-fit: cover;
 }
 
+/* Styling for header title */
 .title {
     margin: 15px 20px 10px;
     font-size: 1.2em;
     font-weight: bold;
 }
 
+/* Styling for pargraph text */
 .description {
     margin: 0 20px 20px;
     font-size: 0.9em;
@@ -130,6 +140,8 @@ p {
         margin-top: 1rem;
         margin-left: 4rem;
     }
+
+    /* Slightly less margin between project cards */
 .project-container {
         margin-top: 1.5rem;
         margin-left: 5rem;
@@ -143,6 +155,7 @@ p {
 
 /* Tablet mode */
 @media (min-width: 700px) and (max-width: 1200px) {
+    /* Smaller headline */
     .headline-1 {
         height: 5rem;
     }
@@ -151,6 +164,7 @@ p {
         margin-top: 1rem;
     }
 
+    /* Changed to bigger 1 card per row */
     .project-container {
         margin-left: 4.7rem;
         margin-right: 1rem;
@@ -161,7 +175,7 @@ p {
     }
 }
 
-/* Big screen */
+/* Full desktop screen */
 @media (min-width: 1201px) and (max-width: 2111px) {
 .project-container {
         margin-left: 17rem;
@@ -169,16 +183,18 @@ p {
     }
 }
 
-/* Smaller big screen */
+/* Smaller desktop screen */
 @media (min-width: 1201px) and (max-width: 1620px) {
+    /* Adjusted margins to achieve a 2 and 2 per row card behavior */
     .project-container {
         margin-left: 10rem;
         margin-right: 10rem;
     }
 }
 
-/* Medium screen */
+/* Small desktop screen */
 @media (min-width: 1201px) and (max-width: 1380px) {
+    /* Further adjusted margins to achieve a 2 and 2 per row card behavior */
     .project-container {
         margin-left: 4.5rem;
         margin-right: 4.5rem;
