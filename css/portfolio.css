@@ -74,19 +74,19 @@ p {
     transition: transform 0.3s ease-in-out;
 }
 
-.project-1, .project-4 {
+.project-1, .project-3 {
     background-color: #0f0f0f;
 }
 
-.project-2, .project-3 {
+.project-2, .project-4 {
     background-color: #ededed;
 }
 
-.project-1 p, .project-4 p {
+.project-1 p, .project-3 p {
     color: #ededed;
 }
 
-.project-2 p, .project-3 p {
+.project-2 p, .project-4 p {
     color: #0f0f0f;
 }
 
