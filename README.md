@@ -1,4 +1,4 @@
-# Dynamisk CV Sida - Uppgift 2 Webbutveckling
+# Dynamisk CV Sida - Uppgift 2 Webbutveckling och Webbteknik
 
 ### Sida skapad av:
 
@@ -25,6 +25,5 @@ Detta är uppgift 2 i kursen Webbutveckling och Webbteknik. Denna bygger vidare 
 
 https://jhn322.github.io/dynamisk-webb-2/
 
-<!-- Semantics html SEO -->
 <!-- Comments everywhere -->
 <!-- Check REQUIRMENTS! -->
