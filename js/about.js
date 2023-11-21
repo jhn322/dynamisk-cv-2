@@ -27,5 +27,7 @@ function showSlides(n) {
   dots[slideIndex-1].classList.add("active");
 }
 
+console.log(document.getElementsByClassName);
+
 // Detta är ett externt script, inget är skrivet av mig.
 // Källa: https://codepen.io/berikiushi/pen/grygxb

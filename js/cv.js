@@ -76,3 +76,5 @@ async function getCV() {
 
 // Starting the function
 getCV();
+
+console.log(getCV);

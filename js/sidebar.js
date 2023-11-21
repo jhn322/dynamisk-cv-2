@@ -8,6 +8,7 @@
 function toggleSidebar() {
   document.body.classList.toggle("open");
 }
+console.log(toggleSidebar);
 
 // Opens sidebar on mouse hover
 const sidebar = document.querySelector('.sidebar');
@@ -25,6 +26,8 @@ sidebar.addEventListener('mouseenter', function() {
 // Function to close sidebar
 sidebar.addEventListener('mouseleave', function() {
 document.body.classList.remove('open');
+
+console.log(addEventListener);
 
 // Cancels the timeout if the mouse leaves before 500ms
 clearTimeout(timeout);
