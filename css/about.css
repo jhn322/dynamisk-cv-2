@@ -53,6 +53,15 @@ p {
 /* -------------------------------External CSS from Codepen Below------------------------------- */
 
 /* Added by me */
+.slideshow-headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+}
+
+/* Added by me */
 .slideshow-container {
     margin-bottom: 5rem;
     padding-left: 4.7rem;
