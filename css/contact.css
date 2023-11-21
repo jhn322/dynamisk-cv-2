@@ -54,14 +54,14 @@ li {
     text-align: center;
 }
 
-.list-container {
+.info-list-container {
     padding: 2rem;
     list-style: none;
     transform-origin: center center;
 }
 
 /* More styling for the list with contact info */
-.list {
+.info-list {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -71,37 +71,29 @@ li {
     transition: transform 1s ease;
 }
 
-.list li {
+.info-list li {
     font-size: 1.3rem;
     font-weight: 500;
     font-family: 'Chakra Petch', sans-serif;
 }
 
 /* Animation effects for list items */
-.list-1, .list-2, .list-3, .list-4 {
+.info-list {
     transform: translateX(0);
     transition: transform 1s ease;
 }
 
-/* Move right, left on hover with a delay */
-.list-1:hover {
-    animation: moveLeftAndBack 1.5s ease forwards;
-}
-
-.list-2:hover {
-    animation: moveRightAndBack 1.5s ease forwards;
-}
-
-.list-3:hover {
-    animation: moveLeftAndBack 1.5s ease forwards;
-}
-
-.list-4:hover {
-    animation: moveRightAndBack 1.5s ease forwards;
-}
-
-.list-1:hover, .list-2:hover, .list-3:hover, .list-4:hover {
+.info-list:hover {
     transition: transform 0s;
+}
+
+/* Move right, left on hover with a delay */
+.info-list-1:hover, .info-list-3:hover {
+    animation: moveLeftAndBack 1.5s ease forwards;
+}
+
+.info-list-2:hover, .info-list-4:hover {
+    animation: moveRightAndBack 1.5s ease forwards;
 }
 
 /* Specified pixel length list items will move for left and right */
@@ -143,11 +135,7 @@ li {
 }
 
 /* Margins for each element in the form */
-.headline-form {
-    margin-bottom: 1rem;
-}
-
-.form-group {
+.headline-form, .form-group {
     margin-bottom: 1rem;
 }
 
@@ -199,7 +187,7 @@ input[type="text"], textarea {
 
 /* Mobile mode */
 @media (max-width: 699px) {
-    .headline-info {
+    .info-headline {
         font-size: 1.7rem;
     }
 }

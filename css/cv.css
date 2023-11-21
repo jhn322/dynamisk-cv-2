@@ -76,6 +76,10 @@ body {
     font-weight: 200;
 }
 
+.work, .school {
+    font-family: 'Manrope', sans-serif;
+}
+
 /* Styling for headlines  */
 .job-headline, .education-headline {
     height: 1px;
@@ -91,18 +95,16 @@ body {
     background: linear-gradient(to bottom right, #2597ab, #36e1ff);
 }
 
-/* Combined styling for year and company */
-.job-year, .job-company {
+/* Combined styling for year, company and schol */
+.job-year, .job-company, .education-year, .education-school {
     font-style: italic;
-    font-family: 'Manrope', sans-serif;
     font-weight: 400;
     margin-bottom: 0.5rem;
 }
 
 /* Styling for job titles */
-.job-title {
+.job-title, .education-title {
     font-size: 1.3rem;
-    font-family: 'Manrope', sans-serif;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
@@ -115,21 +117,6 @@ body {
 .job1-description {
     margin-bottom: 2.5rem;
 
-}
-
-/* Combined styling for year and school */
-.education-year, .education-school {
-    font-style: italic;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 400;
-    margin-bottom: 0.5rem;
-}
-
-.education-title {
-    font-size: 1.3rem;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
 }
 
 /* Added margin between schools */
