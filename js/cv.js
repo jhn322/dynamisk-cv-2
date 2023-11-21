@@ -78,3 +78,5 @@ async function getCV() {
 getCV();
 
 console.log(getCV);
+
+// Denna kod är skriven av mig. 
