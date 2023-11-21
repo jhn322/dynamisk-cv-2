@@ -22,7 +22,7 @@ li {
 }
 
 /* Headline styling */
-.headline-info {
+.info-headline {
     font-size: 4rem;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 600;
@@ -30,7 +30,7 @@ li {
 }
 
 /* Styling for h1 in contact container */
-.contact-container h1 {
+.info-container h1 {
     padding: 2rem;
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@ li {
 }
 
 /* Styling for contact container with list items */
-.contact-container {
+.info-container {
     height: auto;
     width: 46%;
     min-width: 300px;
@@ -49,7 +49,7 @@ li {
 }
 
 /* Styling for text in container */
-.contact-container p {
+.info-container p {
     padding: 2rem;
     text-align: center;
 }
@@ -206,7 +206,7 @@ input[type="text"], textarea {
 
 /* Tablet mode */
 @media (min-width: 700px) and (max-width: 1200px) {
-    .headline-info {
+    .info-headline {
         font-size: 2.5rem;
     }
 

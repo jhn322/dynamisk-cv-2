@@ -41,7 +41,7 @@ p {
 }
 
 /* Properties for header with image */
-.headline-1 {
+.portfolio-headline-1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,7 +54,7 @@ p {
 }
 
 /* Properties for header text */
-.headline-text {
+.portfolio-headline-text {
     margin-top: 3rem;
     text-align: center;
     display: flex;
@@ -67,7 +67,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* max-width: 1600px; */
     margin: 3rem auto;
 }
 
@@ -104,39 +103,39 @@ p {
 }
 
 /* Styling for text inside anchor tag */
-.link {
+.project-link {
     display: block;
     text-decoration: none;
     color: inherit;
 }
 
 /* Images styling */
-.image {
+.project-image {
     width: 100%;
     height: 20rem;
     object-fit: cover;
 }
 
 /* Styling for header title */
-.title {
+.project-title {
     margin: 15px 20px 10px;
     font-size: 1.2em;
     font-weight: bold;
 }
 
 /* Styling for pargraph text */
-.description {
+.project-description {
     margin: 0 20px 20px;
     font-size: 0.9em;
 }
 
 /* Mobile mode */
 @media (max-width: 699px) {
-.headline-1 {
+.portfolio-headline-1 {
         height: 5rem;
     }
     
-.headline-text {
+.portfolio-headline-text {
         margin-top: 1rem;
         margin-left: 4rem;
     }
@@ -156,11 +155,11 @@ p {
 /* Tablet mode */
 @media (min-width: 700px) and (max-width: 1200px) {
     /* Smaller headline */
-    .headline-1 {
+    .portfolio-headline-1 {
         height: 5rem;
     }
 
-    .headline-text {
+    .portfolio-headline-text {
         margin-top: 1rem;
     }
 

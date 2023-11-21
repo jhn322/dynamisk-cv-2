@@ -13,7 +13,7 @@ body {
 }
 
 /* Styling for header container */
-.header-cv {
+.cv-header-container {
     height: 300px;
     width: 100%;
     min-width: 300px;
@@ -27,7 +27,7 @@ body {
 }
 
 /* Styling for h1 headline in header */
-.header-cv h1 {
+.cv-header-container h1 {
     padding-top: 6rem;
     font-weight: 400;
 }
@@ -41,13 +41,13 @@ body {
 }
 
 /* Specific styling for h3 in header */
-.cv-header {
+.cv-headline {
     font-weight: lighter;
     font-size: 1.8rem;
 }
 
 /* Styling for container for work and school experiences */
-.body-cv {
+.cv-container {
     height: auto;
     width: 46%;
     pointer-events: none;
@@ -61,7 +61,7 @@ body {
 }
 
 /* Styling for h3 in work and school */
-.body-cv h3 {
+.cv-container h3 {
     padding: 3rem;
     text-align: center;
     font-weight: 700;
@@ -69,7 +69,7 @@ body {
 }
 
 /* Styling for p text in work and school */
-.body-cv p {
+.cv-container p {
     padding-top: 0.6rem;
     font-size: 1rem;
     font-family: 'Manrope', sans-serif;
@@ -140,14 +140,14 @@ body {
 /* Mobile mode */
 @media (max-width: 699px) {
     /* Removed name & last in header */
-    .header-cv {
+    .cv-header-container {
         height: 200px;
     }
     .first-name, .last-name {
         font-size: 0;
         line-height: 0;
     }
-    .cv-header {
+    .cv-headline {
         font-size: 2rem;
         margin-top: -1rem;
     }
@@ -156,7 +156,7 @@ body {
 /* Tablet mode */
 @media (min-width: 700px) and (max-width: 1200px) {
     /* Decreased font size in header */
-    .header-cv {
+    .cv-header-container {
         height: 200px;
     }
     
@@ -164,7 +164,7 @@ body {
         font-size: 1.5rem;
     }
     
-    .cv-header {
+    .cv-headline {
         font-size: 1.3rem;
         margin-top: -2rem;
     }
