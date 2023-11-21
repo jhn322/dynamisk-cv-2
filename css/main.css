@@ -132,6 +132,15 @@ section {
     color: #2597ab;
 }
 
+/* Hidden section header for HTML best practice */
+.hidden-header {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 .project-container {
     display: flex;
     flex-direction: row;
