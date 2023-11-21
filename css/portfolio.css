@@ -69,7 +69,6 @@ p {
 .project {
     width: 30rem;
     margin: 1.5rem 1.5rem;
-    border-radius: 10px;
     overflow: hidden;
     color: #36e1ff;
     transition: transform 0.3s ease-in-out;
