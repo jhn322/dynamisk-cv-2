@@ -21,8 +21,21 @@ Detta är uppgift 2 i kursen Webbutveckling och Webbteknik. Denna bygger vidare 
 9. Stor förbättring i anpassning av responsiv design på varenda sida för mobil, tablet, desktop.
 10. Bättre kodkvalitét och kommentering.
 
+### Colors
+
+Main element & text dark: #0f0f0f
+Main element & text light: #ededed
+Sidebar text hover: #aeaeae
+Fallback background: #070707
+Links/buttons: #36e1ff
+Hover: #2597ab
+Slideshow: #ededed, #bbb, #717171
+Contact form: #ccc, #ffffff, #0f0f0f, #36e1ff, #2597ab
+
+### Externa script
+
+https://codepen.io/berikiushi/pen/grygxb
+
 ### Länk till webbsidan:
 
 https://jhn322.github.io/dynamisk-webb-2/
-
-<!-- Check REQUIRMENTS! -->
