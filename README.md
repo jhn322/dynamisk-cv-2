@@ -25,8 +25,6 @@ Detta är uppgift 2 i kursen Webbutveckling och Webbteknik. Denna bygger vidare 
 
 https://jhn322.github.io/dynamisk-webb-2/
 
-<!-- Fortsätt kommentera -->
 <!-- Byt bild på portfolio header och 4 cardsen -->
 <!-- Se över variablar/klasser -->
-<!-- Comments everywhere -->
 <!-- Check REQUIRMENTS! -->
