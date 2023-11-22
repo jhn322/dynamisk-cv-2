@@ -39,5 +39,5 @@ function showSlides(n) {
 // Logs function
 console.log(document.getElementsByClassName);
 
-// Detta är ett externt script, inget är skrivet av mig.
+// Detta är ett externt script från CodePen.
 // Källa: https://codepen.io/berikiushi/pen/grygxb

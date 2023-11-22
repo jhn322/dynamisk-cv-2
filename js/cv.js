@@ -4,6 +4,9 @@
 // 3) Retrieve elements for 1st, 2nd, 3rd and 4th education from HTML, year, school, title.
 // 4) Fetch the school experience from the JSON file which includes all properties (education, year etc).
 // 8) Display JSON CV info on the specific tab of the webpage.
+// ###############################
+// # Denna kod är skriven av mig.#
+// ###############################
 
 // Retrieving Id from cv.html for each job and education
 const job1Year = document.getElementById("job1-year");
@@ -78,5 +81,3 @@ async function getCV() {
 getCV();
 
 console.log(getCV);
-
-// Denna kod är skriven av mig. 
