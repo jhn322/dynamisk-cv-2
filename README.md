@@ -1,4 +1,4 @@
-# Dynamisk Sida - Uppgift 2 Webbutveckling och Webbteknik
+# Dynamisk Sida - Webbutveckling och Webbteknik - Uppgift 2
 
 ### Sida skapad av:
 
