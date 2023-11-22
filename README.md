@@ -1,14 +1,14 @@
-# Dynamisk CV Sida - Uppgift 2 Webbutveckling och Webbteknik
+# Dynamisk Sida - Uppgift 2 Webbutveckling och Webbteknik
 
 ### Sida skapad av:
 
 Johan Söderlund
 
-### Information
+### Information:
 
 Detta är uppgift 2 i kursen Webbutveckling och Webbteknik. Denna bygger vidare på uppgift 1 vilket är att skapa en personlig CV-sida med ett antal sidor som inkluderar startsida, CV, kontaktinformation m.m. Utöver kriterierna från första uppgiften ska denna ge sidan "liv" genom ett antal dynamiska aspekter med hjälp av JavaScript och JSON element.
 
-### Nyheter & förbättringar
+### Nyheter & förbättringar:
 
 1. Dynamisk sido navigationsmeny som expanderar utan/med musklick med hjälp av JS.
 2. Modern design på startsida med stora tydliga bilder, rubriker och länkar till relevanta sidor.
@@ -21,7 +21,7 @@ Detta är uppgift 2 i kursen Webbutveckling och Webbteknik. Denna bygger vidare 
 9. Stor förbättring i anpassning av responsiv design på varenda sida för mobil, tablet, desktop.
 10. Bättre kodkvalitét och kommentering.
 
-### Colors
+### Colors:
 
 Main element & text dark: #0f0f0f
 
@@ -39,7 +39,7 @@ Slideshow: #ededed, #bbb, #717171
 
 Contact form: #ccc, #ffffff, #0f0f0f, #36e1ff, #2597ab
 
-### Externa script
+### Externa script:
 
 https://codepen.io/berikiushi/pen/grygxb
 
