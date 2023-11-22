@@ -3,6 +3,7 @@
 // 2) Contract when hamburger button is pressed
 // 3) Open with a delay when mouse hover the sidebar
 // 4) Close without a delay when mouse leaves the sidebar
+
 // ###############################
 // # Denna kod är skriven av mig.#
 // ###############################

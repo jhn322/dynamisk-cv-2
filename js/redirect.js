@@ -1,4 +1,5 @@
 // Functions to redirect to specific link onClick as assigned in HTML
+
 // ###############################
 // # Denna kod är skriven av mig.#
 // ###############################
