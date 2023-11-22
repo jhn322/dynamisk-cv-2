@@ -42,4 +42,4 @@ function typeInEffect() {
 // Calls the typing effect function after page load
 window.addEventListener('load', typeInEffect);
 
-// Skrivet av mig
+// Skrivet av mig med hjälp av chatgpt
