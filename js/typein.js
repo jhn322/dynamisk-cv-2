@@ -1,5 +1,9 @@
 // This script is creating an "animated effect" to simulate the headline to be typed in by a keyboard/user
 
+// ####################################################
+// # Denna kod är skriven av mig med hjälp av chatgpt.#
+// ####################################################
+
 function typeInEffect() {
     // Selected the HTML element class
     const headline = document.querySelector('.portfolio-headline-1-name');

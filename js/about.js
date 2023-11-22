@@ -1,4 +1,10 @@
 // External JavaScript from CodePen below 
+
+// ##########################################
+// #      Externt script från CodePen.      #
+// https://codepen.io/berikiushi/pen/grygxb #
+// ##########################################
+
 /* Slideshow JavaScript */
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -38,6 +44,3 @@ function showSlides(n) {
 
 // Logs function
 console.log(document.getElementsByClassName);
-
-// Detta är ett externt script från CodePen.
-// Källa: https://codepen.io/berikiushi/pen/grygxb

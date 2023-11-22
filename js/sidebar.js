@@ -3,6 +3,9 @@
 // 2) Contract when hamburger button is pressed
 // 3) Open with a delay when mouse hover the sidebar
 // 4) Close without a delay when mouse leaves the sidebar
+// ###############################
+// # Denna kod är skriven av mig.#
+// ###############################
 
 // Opens sidebar
 function toggleSidebar() {
@@ -32,6 +35,3 @@ console.log(addEventListener);
 // Cancels the timeout if the mouse leaves before 500ms
 clearTimeout(timeout);
 });
-
-
-// Denna kod är skriven av mig. 
