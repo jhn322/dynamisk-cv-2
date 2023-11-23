@@ -152,14 +152,16 @@ body.open .sidebar-menu>div>a>span {
     transition: all 0.4s;
 }
 
-/* Add this media query at the end of your CSS file */
+/* Mobile mode */
 @media only screen and (max-width: 699px) {
 
-    /* Make the sidebar transparent in mobile mode */
+    /* Makes the sidebar transparent */
     .sidebar {
         background: rgba(15, 15, 15, 0.2);
     }
-    .sidebar-menu>div>a {
-        color: #2597ab;
+
+    /* Makes the sidebar solid when opened */
+    body.open .sidebar {
+        background: #0f0f0f;
     }
 }
