@@ -221,11 +221,12 @@ section {
 
 .project-3 {
     background-image: url('../images/project-3-bg.jpg');
-    margin-right: 0.7rem;
+    margin: 0 0.7rem 0.7rem 0;
 }
 
 .project-4 {
     background-image: url('../images/project-4-bg.jpg');
+    margin-bottom: 0.7rem;
 }
 
 /* Mobile mode */
@@ -276,6 +277,15 @@ section {
     .project-text {
         margin-bottom: 1rem;
     }
+
+    /* Fixed the look of margins in smaller screen */
+    .project-1 {
+        margin: 0 0 0.7rem 0;
+    }
+    
+    .project-3 {
+        margin: 0 0 0.7rem 0;
+    }
 }
 
 /* Tablet mode */
@@ -306,6 +316,15 @@ section {
     }
     
     .project-text {
-         margin-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    /* Fixed the look of margins in smaller screen */
+    .project-1 {
+        margin: 0 0 0.7rem 0;
+    }
+    
+    .project-3 {
+        margin: 0 0 0.7rem 0;
     }
 }
