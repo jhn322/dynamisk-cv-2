@@ -8,7 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #ededed;
+    background-color: #ffffff;
 }
 
 /* Styling h1 and h2 headline */
@@ -79,6 +79,7 @@ section {
 
 /* Specific styling and flex for second element */
 .start-2 {
+    margin-top: 0.7rem;
     height: 35rem;
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../images/start-2-bg.jpg');
     background-color: #ededed;
@@ -89,11 +90,13 @@ section {
 }
 
 /* Styling and flex for Portfolio headline/container */
-.portfolio-headline {
+.portfolio-header-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 6rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
     width: 100vw;
     cursor: pointer;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/portfolio-headline-bg.jpg');
@@ -103,25 +106,25 @@ section {
 }
 
 /* Flex text in portfolio header */
-.portfolio-headline-text {
+.portfolio-header-text {
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-.portfolio-headline-name {
+.portfolio-header-name {
     margin-top: 0.3rem;
 }
 
 /* Styling for link button */
-.portfolio-headline-link-button {
+.portfolio-header-link-button {
     color: #36e1ff;
     font-size: 1.3rem;
     margin-top: -1rem;
     transition: 0.2s ease;
 }
 
-.portfolio-headline-link-button:hover {
+.portfolio-header-link-button:hover {
     color: #2597ab;
 }
 
@@ -208,14 +211,17 @@ section {
 /* Images for projects */
 .project-1 {
     background-image: url('../images/project-1-bg.jpg');
+    margin: 0 0.7rem 0.7rem 0;
 }
 
 .project-2 {
     background-image: url('../images/project-2-bg.jpg');
+    margin-bottom: 0.7rem;
 }
 
 .project-3 {
     background-image: url('../images/project-3-bg.jpg');
+    margin-right: 0.7rem;
 }
 
 .project-4 {
