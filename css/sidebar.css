@@ -152,6 +152,10 @@ body.open .sidebar-menu>div>a>span {
     transition: all 0.4s;
 }
 
+.sidebar-burger > .bxs-chevron-right {
+    display: none;
+}
+
 /* Mobile mode */
 @media only screen and (max-width: 699px) {
 
@@ -173,5 +177,8 @@ body.open .sidebar-menu>div>a>span {
     /* Keeps the header semi-visible */
     .sidebar-header {
         background: rgba(15, 15, 15, 0.6);
+    }
+    .sidebar-burger>.bxs-chevron-right {
+        display: flex;
     }
 }
