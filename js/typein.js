@@ -49,5 +49,3 @@ window.addEventListener('load', function() {
     typeInEffect('.portfolio-headline-1-name', 'PORTFOLIO');
     typeInEffect('.start-1-name', 'JOHAN SÖDERLUND');
 });
-
-// Skrivet av mig med hjälp av chatgpt
