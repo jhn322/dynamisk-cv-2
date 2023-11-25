@@ -64,6 +64,7 @@ h1 {
 .slideshow-container {
     margin-bottom: 5rem;
     padding-left: 4.7rem;
+    margin-right: 5rem;
 }
 
 .slideshow { /* Edited class name */
@@ -150,7 +151,7 @@ h1 {
         font-size: 1rem;
     }
     .slideshow-container {
-        margin-right: 5rem;
+        margin-right: rem;
     }
     .slideshow-headline {
         font-size: 1.3rem;
