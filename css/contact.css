@@ -103,7 +103,7 @@ li {
     }
 
     50% {
-        transform: translateX(-200px);
+        transform: translateX(-150px);
     }
 
     100% {
@@ -117,7 +117,7 @@ li {
     }
 
     50% {
-        transform: translateX(200px);
+        transform: translateX(150px);
     }
 
     100% {
@@ -189,6 +189,9 @@ input[type="text"], textarea {
 @media (max-width: 699px) {
     .info-headline {
         font-size: 1.7rem;
+    }
+    .info-list {
+        font-size: 0.9rem;
     }
     .contact-form {
         max-width: 350px;

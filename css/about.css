@@ -149,6 +149,9 @@ h1 {
     .about-text p {
         font-size: 1rem;
     }
+    .slideshow-container {
+        margin-right: 5rem;
+    }
     .slideshow-headline {
         font-size: 1.3rem;
     }
