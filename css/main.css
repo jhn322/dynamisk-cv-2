@@ -248,21 +248,19 @@ section {
         margin-bottom: 1rem;
     }
 
-    .portfolio-headline {
+    .portfolio-header {
+        height: 4rem;
         background-color: #070707;
     }
 
-    .portfolio-headline {
-        height: 4rem;
-    }
-
     /* Shifts the link button to the right of portfolio headline  */
-    .portfolio-headline-text {
+    .portfolio-header-text {
         display: flex;
         flex-direction: row;
+        margin-top: 1rem;
     }
 
-    .portfolio-headline-link-button {
+    .portfolio-header-link-button {
         margin: 1rem 0 0 1.5rem;
     }
 
