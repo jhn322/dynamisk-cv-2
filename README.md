@@ -2,13 +2,11 @@
 
 ### Sida skapad av:
 
-Johan Söderlund
+![image search api](https://i.imgur.com/RJTOgwf.png)
 
 ### Länk till webbsidan:
 
 https://jhn322.github.io/dynamisk-webb-2/
-
-![image search api](https://i.imgur.com/RJTOgwf.png)
 
 ### Information:
 
