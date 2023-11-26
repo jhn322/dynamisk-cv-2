@@ -248,6 +248,19 @@ section {
         margin-bottom: 1rem;
     }
 
+    .start-link-button, .portfolio-header-link-button, .project-link-button {
+        font-size: 1.1rem;
+    }
+        
+    h1, h2 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+
+    }
+
     .portfolio-header {
         height: 4rem;
         background-color: #070707;
