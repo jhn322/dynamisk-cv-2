@@ -29,7 +29,7 @@ Main element & text light: #ededed
 
 Sidebar text hover: #aeaeae
 
-Fallback background: #070707
+Body background: #ffffff
 
 Links/buttons: #36e1ff
 
