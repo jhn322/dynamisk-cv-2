@@ -4,7 +4,10 @@
 // # Denna kod är skriven av mig.#
 // ###############################
 
+
+// function with variabel assigned in HTML to work onclick
 function redirectToAbout() {
+    // Redirects to respective page or external webpage on click
     window.location.href = "html/about.html";
 }
 
