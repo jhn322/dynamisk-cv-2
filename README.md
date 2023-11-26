@@ -25,7 +25,7 @@ Detta är uppgift 2 i kursen Webbutveckling och Webbteknik. Denna bygger vidare 
 9. Stor förbättring i anpassning av responsiv design på varenda sida för mobil, tablet, desktop.
 10. Bättre kodkvalitét och kommentering.
 
-### Colors:
+### Färger använt:
 
 Main element & text dark: #0f0f0f
 
