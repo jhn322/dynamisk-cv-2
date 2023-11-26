@@ -2,7 +2,7 @@
 
 ### Sida skapad av:
 
-![image search api](https://i.imgur.com/RJTOgwf.png)
+![image search api](https://i.imgur.com/ocTcMRL.png)
 
 ### Länk till webbsidan:
 
