@@ -188,6 +188,7 @@ input[type="text"], textarea {
 /* Mobile mode */
 @media (max-width: 699px) {
     .info-headline {
+        margin-top: 2.2rem;
         font-size: 1.7rem;
     }
     .info-list {

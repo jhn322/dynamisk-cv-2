@@ -134,6 +134,7 @@ p {
    /* Smaller headline font size */
     h1 {
         font-size: 2.5rem;
+        margin-left: -4rem;
     }
 .portfolio-headline-1 {
         height: 5rem;
@@ -147,7 +148,7 @@ p {
     /* Slightly less margin between project cards */
 .project-container {
         margin-top: 1.5rem;
-        margin-left: 5rem;
+        margin-left: 1rem;
         margin-right: 1rem;
     }
 .project {
@@ -160,6 +161,7 @@ p {
 @media (min-width: 700px) and (max-width: 1200px) {
     h1 {
         font-size: 2.5rem;
+        margin-left: 1rem;
     }
     /* Smaller header */
     .portfolio-headline-1 {
