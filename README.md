@@ -4,6 +4,10 @@
 
 Johan Söderlund
 
+### Länk till webbsidan:
+
+https://jhn322.github.io/dynamisk-webb-2/
+
 ### Information:
 
 Detta är uppgift 2 i kursen Webbutveckling och Webbteknik. Denna bygger vidare på uppgift 1 vilket är att skapa en personlig CV-sida med ett antal sidor som inkluderar startsida, CV, kontaktinformation m.m. Utöver kriterierna från första uppgiften ska denna ge sidan "liv" genom ett antal dynamiska aspekter med hjälp av JavaScript och JSON element.
@@ -42,7 +46,3 @@ Contact form: #ccc, #ffffff, #0f0f0f, #36e1ff, #2597ab
 ### Externa script:
 
 https://codepen.io/berikiushi/pen/grygxb
-
-### Länk till webbsidan:
-
-https://jhn322.github.io/dynamisk-webb-2/
