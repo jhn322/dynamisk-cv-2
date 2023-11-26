@@ -8,7 +8,7 @@ Johan Söderlund
 
 https://jhn322.github.io/dynamisk-webb-2/
 
-![image search api](https://imgur.com/a/q4QgZd5)
+![image search api](https://i.imgur.com/RJTOgwf.png)
 
 ### Information:
 
