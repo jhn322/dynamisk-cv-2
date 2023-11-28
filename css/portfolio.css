@@ -194,7 +194,7 @@ p {
     }
     
     .portfolio-headline-text {
-        margin-top: 1rem;
+        margin-top: 0.6rem;
         margin-left: 4rem;
     }
 
@@ -244,7 +244,7 @@ p {
     /* Smaller card size tablet */
     .project-card {
         width: 25rem;
-        height: 21rem;
+        height: 22rem;
     }
         
     /* Smaller font tablet */
