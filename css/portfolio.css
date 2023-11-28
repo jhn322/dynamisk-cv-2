@@ -202,8 +202,21 @@ p {
     .project-container {
         margin-top: -0.6rem;
     }
+    
+    /* Less space between in mobile */
     .project-2, .project-3, .project-4 {
         margin-top: -0.6rem;
+    }
+
+    /* Smaller card size mobile */
+    .project-card {
+        width: 25rem;
+
+    }
+    /* Smaller font mobile */
+    .project-description {
+        font-size: 1rem;
+        margin: 0 20px 0 20px;
     }
 }
 
