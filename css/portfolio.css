@@ -183,7 +183,7 @@ p {
 }
 
 /* Mobile mode */
-@media (max-width: 729px) {
+@media (max-width: 699px) {
    /* Smaller headline font size */
     h1 {
         font-size: 2.5rem;
@@ -216,13 +216,18 @@ p {
 
     /* Smaller font mobile */
     .project-description {
-        font-size: 1rem;
+        font-size: 0.9rem;
         margin: 0 20px 0 20px;
+    }
+    /* Styling for link on back side */
+    .description-link {
+        margin-top: 0.6rem;
+        font-size: 1.3rem;
     }
 }
 
 /* Tablet mode */
-@media (min-width: 730px) and (max-width: 1200px) {
+@media (min-width: 700px) and (max-width: 1200px) {
     h1 {
         font-size: 2.5rem;
         margin-left: 1rem;
