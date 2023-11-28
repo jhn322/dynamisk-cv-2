@@ -158,7 +158,22 @@ p {
 
 .project-link {
     text-decoration: none;
-    margin: 15px;
+}
+
+.project-description {
+    font-size: 1.2rem;
+    margin: 0 20px 0 20px;
+}
+
+.description-link {
+    margin-top: 2rem;
+    color: #36e1ff;
+    font-size: 1.5rem;
+    transition: 0.2s ease;
+}
+
+.description-link:hover {
+    color: #2597ab;
 }
 
 /* Mobile mode */
