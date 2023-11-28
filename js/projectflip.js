@@ -4,14 +4,14 @@
 // # Denna kod är skriven av mig.#
 // ###############################
 
-// Selects all 'project' classes and stores them in a variabel
-const projects = document.querySelectorAll('.project');
+// Selects all 'project-card' classes and stores them in a variabel
+const projectCards = document.querySelectorAll('.project-card');
 
-// forEach over each 'project' class
-projects.forEach(function(project) {
+// forEach over each 'card' class
+projectCards.forEach(function(card) {
     // Added an event listener for the click function to work
-    project.addEventListener('click', function() {
+    card.addEventListener('click', function() {
         // Toggle the project card on click
-        project.classList.toggle('flip');
+        card.classList.toggle('is-flipped');
     });
 });
