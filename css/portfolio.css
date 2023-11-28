@@ -197,17 +197,6 @@ p {
         margin-top: 1rem;
         margin-left: 4rem;
     }
-
-    /* Slightly less margin between project cards */
-.project-container {
-        margin-top: 1.5rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-.project {
-        width: 34rem;
-        margin: 0.5rem 1rem;
-    }
 }
 
 /* Tablet mode */
@@ -223,16 +212,6 @@ p {
 
     .portfolio-headline-text {
         margin-top: 1rem;
-    }
-
-    /* Changed to bigger 1 card per row */
-    .project-container {
-        margin-left: 4.7rem;
-        margin-right: 1rem;
-    }
-
-    .project {
-        width: 50rem;
     }
 }
 
