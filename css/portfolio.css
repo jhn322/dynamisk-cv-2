@@ -190,7 +190,7 @@ p {
         margin-left: -4rem;
     }
     .portfolio-headline-1 {
-        height: 5rem;
+        height: 4.38rem;
     }
     
     .portfolio-headline-text {
@@ -211,7 +211,7 @@ p {
     /* Smaller card size mobile */
     .project-card {
         width: 20rem;
-        height: 18rem;
+        height: 20rem;
     }
 
     /* Smaller font mobile */
