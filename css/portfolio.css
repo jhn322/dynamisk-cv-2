@@ -189,13 +189,21 @@ p {
         font-size: 2.5rem;
         margin-left: -4rem;
     }
-.portfolio-headline-1 {
+    .portfolio-headline-1 {
         height: 5rem;
     }
     
-.portfolio-headline-text {
+    .portfolio-headline-text {
         margin-top: 1rem;
         margin-left: 4rem;
+    }
+
+    /* Slightly less margin between project cards */
+    .project-container {
+        margin-top: -0.6rem;
+    }
+    .project-2, .project-3, .project-4 {
+        margin-top: -0.6rem;
     }
 }
 
@@ -217,7 +225,7 @@ p {
 
 /* Full desktop screen */
 @media (min-width: 1201px) and (max-width: 2111px) {
-.project-container {
+    .project-container {
         margin-left: 17rem;
         margin-right: 17rem;
     }
