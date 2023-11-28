@@ -126,14 +126,17 @@ p {
     height: 25rem;
 }
 
+/* Rotate 180 degrees with JS variabel */
 .project-card.is-flipped .project-front {
     transform: rotateY(180deg);
 }
 
+/* Rotate 180 degrees back with JS variabel */
 .project-card.is-flipped .project-back {
     transform: rotateY(0);
 }
 
+/* Styling for front and back card */
 .project-front, .project-back {
     backface-visibility: hidden;
     position: absolute;
@@ -147,6 +150,7 @@ p {
     align-items: center;
 }
 
+/* Text alignement back side */
 .project-back {
     transform: rotateY(180deg);
     display: flex;
@@ -160,11 +164,13 @@ p {
     text-decoration: none;
 }
 
+/* Size & margin for description text */
 .project-description {
     font-size: 1.2rem;
     margin: 0 20px 0 20px;
 }
 
+/* Styling for link on back side */
 .description-link {
     margin-top: 2rem;
     color: #36e1ff;
