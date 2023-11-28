@@ -183,7 +183,7 @@ p {
 }
 
 /* Mobile mode */
-@media (max-width: 899px) {
+@media (max-width: 729px) {
    /* Smaller headline font size */
     h1 {
         font-size: 2.5rem;
@@ -210,8 +210,8 @@ p {
 
     /* Smaller card size mobile */
     .project-card {
-        width: 25rem;
-        height: 21rem;
+        width: 20rem;
+        height: 18rem;
     }
 
     /* Smaller font mobile */
@@ -222,7 +222,7 @@ p {
 }
 
 /* Tablet mode */
-@media (min-width: 900px) and (max-width: 1200px) {
+@media (min-width: 730px) and (max-width: 1200px) {
     h1 {
         font-size: 2.5rem;
         margin-left: 1rem;
