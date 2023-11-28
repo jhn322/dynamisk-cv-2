@@ -127,12 +127,12 @@ p {
 }
 
 /* Rotate 180 degrees with JS variabel */
-.project-card.is-flipped .project-front {
+.project-card.flip .project-front {
     transform: rotateY(180deg);
 }
 
 /* Rotate 180 degrees back with JS variabel */
-.project-card.is-flipped .project-back {
+.project-card.flip .project-back {
     transform: rotateY(0);
 }
 

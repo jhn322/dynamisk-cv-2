@@ -12,6 +12,6 @@ projectCards.forEach(function(card) {
     // Added an event listener for the click function to work
     card.addEventListener('click', function() {
         // Toggle the project card on click
-        card.classList.toggle('is-flipped');
+        card.classList.toggle('flip');
     });
 });
