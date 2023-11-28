@@ -111,7 +111,7 @@ h1 {
     width: 100%;
     text-align: center;
     /* Added by me */
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 6);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
 }
 
 /* Styling for numbering in top left corner */
@@ -121,7 +121,7 @@ h1 {
     padding: 8px 12px;
     position: absolute;
     top: 0;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 6); /* Added by me */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6); /* Added by me */
 }
 
 /* Styling for dots below pictures */
@@ -149,9 +149,6 @@ h1 {
     }
     .about-text p {
         font-size: 1rem;
-    }
-    .slideshow-container {
-        margin-right: rem;
     }
     .slideshow-headline {
         font-size: 1.3rem;
