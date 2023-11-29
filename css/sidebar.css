@@ -176,5 +176,6 @@ body.open .sidebar-menu>div>a>span {
     }
     .sidebar-menu {
         overflow-y: auto;
+        max-height: calc(100vh - 68px);
     }
 }
