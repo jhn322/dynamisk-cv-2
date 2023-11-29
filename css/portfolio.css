@@ -235,11 +235,14 @@ p {
         font-size: 0.9rem;
         margin: 0 20px 0 20px;
     }
+    
     /* Styling for link on back side */
     .description-link {
         margin-top: 0.4rem;
         font-size: 1.3rem;
     }
+
+    /* margins between play button */
     .play-link {
         font-size: 1.2rem;
         margin-top: 1rem;
