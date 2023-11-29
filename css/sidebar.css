@@ -44,7 +44,7 @@ div {
 
 /* Width of sidebar when in open mode */
 body.open .sidebar {
-    width: 250px;
+    width: 265px;
 }
 
 /* Inner part of the sidebar */
