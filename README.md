@@ -25,6 +25,18 @@ Detta är uppgift 2 i kursen Webbutveckling och Webbteknik. Denna bygger vidare 
 9. Stor förbättring i anpassning av responsiv design på varenda sida för mobil, tablet, desktop.
 10. Bättre kodkvalitét och kommentering.
 
+### Framtida möjliga förbättringar:
+
+1. Ladda in hela CV sidan med JSON, h1, h2, elements etc.
+2. Navbar i topp med det viktigaste med övrigt i sidebar.
+3. Burger knappen agerar separat och håller sidebar öppen tills den trycks igen.
+4. Mer uttänkt layout på 'About' och 'Contact' sidor.
+5. Aktiva länkar till mail, karta, skola osv med fungerande kontaktformulär på 'Contact' sida.
+6. Bättre upptäckning av klickbara yttor e.g. ingen "hand muspekare" vid icke klickbara element.
+7. Mer enhetlig design på alla övriga flikar.
+8. Lagt till fler projekt i JavaScript.
+9. Mer JavaScript kod för en förbättrad dynamisk upplevelse av sidan.
+
 ### Färger använt:
 
 Main element & text dark: #0f0f0f
