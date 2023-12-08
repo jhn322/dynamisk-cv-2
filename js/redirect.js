@@ -19,7 +19,8 @@ function redirectToPortfolio() {
 }
 
 function redirectToGithub1() {
-  window.location.href = "https://github.com/jhn322/Plex-meta-manager.git";
+  window.location.href =
+    "https://github.com/jhn322/plex-meta-manager-config.git";
 }
 
 function redirectToGithub2() {
