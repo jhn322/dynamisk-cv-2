@@ -6,7 +6,9 @@
 
 ### Länk till webbsidan:
 
-https://jhn322.github.io/dynamisk-webb-2/
+[GitHub Pages](https://jhn322.github.io/dynamisk-webb-2/)
+
+[Netlify](https://jhn-dynamisk.netlify.app/)
 
 ### Information:
 
